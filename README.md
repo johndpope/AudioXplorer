@@ -46,6 +46,11 @@ Custom plug-ins SDK
 
 Custom plug-ins SDK for AudioXplorer are available now. They allow any programmer to develop plug-ins for AudioXplorer in a few minutes without specific knowledge of how plug-ins are working.
 
+Reverse wav code
+![Alt text](/Images/4.png "boom")
+![Alt text](/Images/5.png "boom")
+![Alt text](/Images/6.png "boom")
+
 
 
 
