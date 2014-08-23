@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {changeTopicAction = id; }; 
+            CLASS = AudioDialogHelp; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {mTextView = NSTextView; mTopicPopUpButton = NSPopUpButton; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

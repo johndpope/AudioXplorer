@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Premere il tasto Alt aprendo il menu Effetti mostrerà più opzioni</string>
+	<string>Fate clic e trascinate il mouse sulla scala di un asse per modificarla</string>
+	<string>Premete il tasto Ctrl e fate clic su una vista per mostrare un menù contestuale con molte opzioni utili</string>
+	<string>Usate la finestra dell'Inspector per modificare la vista corrente (sia con finestre statiche che in tempo reale)</string>
+	<string>Premete il tasto 'c' per cambiare il canale del cursore nel modo seguente: sinistro, destro, nessuno (nascosto)</string>
+	<string>Si può cambiare graficamente il trigger di soglia nella vista oscilloscopio in tempo reale facendo clic e tenendo premuto il tasto Alt</string>
+</array>
+</plist>

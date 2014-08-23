@@ -1,0 +1,27 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                closePanel = id; 
+                displayFFTSizeButtonAction = id; 
+                fftSizeColorWellAction = id; 
+                fftSizePopUpAction = id; 
+                fftWindowFunctionParameterTextFieldAction = id; 
+                fftWindowFunctionTypePopUpAction = id; 
+            }; 
+            CLASS = AudioFFTParametersController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                mFFTSizeColorWell = NSColorWell; 
+                mFFTSizeDisplayButton = NSButton; 
+                mFFTSizePopUp = NSPopUpButton; 
+                mFFTWindowParameterTextField = NSTextField; 
+                mFFTWindowParameterTitle = NSTextField; 
+                mFFTWindowTypePopUp = NSPopUpButton; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

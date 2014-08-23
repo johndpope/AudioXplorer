@@ -1,0 +1,140 @@
+{
+    IBClasses = (
+        {
+            CLASS = AudioInspectorController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                mAudioInspectorNoAudioView = NSView; 
+                mAudioInspectorNotApplicable = NSView; 
+                mAudioInspectorRT = AudioInspectorRT; 
+                mAudioInspectorST = AudioInspectorST; 
+                mInspectorBox = NSBox; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {
+                amplitudeAdjustYAxis = id; 
+                amplitudeAutoYAxis = id; 
+                amplitudeDisplayWindowModeAction = id; 
+                amplitudeRangeAction = id; 
+                amplitudeVisualTextField = id; 
+                bufferDurationAction = id; 
+                fftAutoYAxis = id; 
+                fftVisualTextField = id; 
+                fftXAxisScale = id; 
+                fftYAxisScale = id; 
+                layoutPopUpAction = id; 
+                triggerCheckBoxAction = id; 
+                triggerOffsetAction = id; 
+                triggerSlopeMatrixAction = id; 
+            }; 
+            CLASS = AudioInspectorRT; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                mAmplitudeAppearanceBox = NSBox; 
+                mAmplitudeAutoYAxis = NSButton; 
+                mAmplitudeDisplayModeCheckBox = NSButton; 
+                mAmplitudeRangePopUp = NSPopUpButton; 
+                mAmplitudeVisualMaxY = NSTextField; 
+                mAmplitudeVisualMinY = NSTextField; 
+                mAmplitudeYAxisUnit = NSTextField; 
+                mBufferDurationPopUp = NSPopUpButton; 
+                mChannelMixerTableView = NSTableView; 
+                mFFTAppearanceBox = NSBox; 
+                mFFTAutoYAxis = NSButton; 
+                mFFTVisualMaxX = NSTextField; 
+                mFFTVisualMaxXLog = NSTextField; 
+                mFFTVisualMaxY = NSTextField; 
+                mFFTVisualMinX = NSTextField; 
+                mFFTVisualMinXLog = NSTextField; 
+                mFFTVisualMinY = NSTextField; 
+                mFFTXAxisScalePopUp = NSPopUpButton; 
+                mFFTXAxisScaleTabView = NSTabView; 
+                mFFTYAxisScalePopUp = NSPopUpButton; 
+                mInputDeviceTextField = NSTextField; 
+                mInspectorPopUp = NSPopUpButton; 
+                mInspectorWindow = NSWindow; 
+                mLayoutPopUp = NSPopUpButton; 
+                mOutputDeviceTextField = NSTextField; 
+                mSonoDataAppearanceBox = NSBox; 
+                mSonoViewAppearanceBox = NSBox; 
+                mTriggerCheckBox = NSButton; 
+                mTriggerOffsetUnit = NSTextField; 
+                mTriggerOffsetValue = NSTextField; 
+                mTriggerSlopeMatrix = NSMatrix; 
+                mViewAmplitude = NSView; 
+                mViewChannelMixer = NSView; 
+                mViewFFT = NSView; 
+                mViewLayout = NSView; 
+                mViewSono = NSView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                changeYAxisScale = id; 
+                checkBoxAction = id; 
+                colorWellAction = id; 
+                displayChannelAction = id; 
+                displayChannelOptionAction = id; 
+                fftViewLinkedButton = id; 
+                fftViewLinkedPopUp = id; 
+                playSound = id; 
+                resetXAxis = id; 
+                resetYAxis = id; 
+                sliderAction = id; 
+                updateCurrentView = id; 
+                zoomIntoSelection = id; 
+            }; 
+            CLASS = AudioInspectorST; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                mAnalyzeAmplitudeView = NSView; 
+                mAnalyzeBox = NSBox; 
+                mAnalyzeFFTView = NSView; 
+                mAppearanceBox = NSBox; 
+                mCursorXTextField = NSTextField; 
+                mCursorXUnitTextField = NSTextField; 
+                mCursorYTextField = NSTextField; 
+                mCursorYUnitTextField = NSTextField; 
+                mCursorZTextField = NSTextField; 
+                mCursorZUnitTextField = NSTextField; 
+                mDisplayChannelOptionButton = NSButton; 
+                mDisplayChannelPopUp = NSPopUpButton; 
+                mFFTViewLinkedButton = NSButton; 
+                mFFTViewLinkedSonoPopUp = NSPopUpButton; 
+                mFFTYAxisScalePopUp = NSPopUpButton; 
+                mInfoHorizontalResolutionTextField = NSTextField; 
+                mInfoNumberOfChannelsTextField = NSTextField; 
+                mInfoSampleRateTextField = NSTextField; 
+                mInfoSampleSizeTextField = NSTextField; 
+                mInfoSoundSizeTextField = NSTextField; 
+                mInfoVerticalResolutionTextField = NSTextField; 
+                mInspectorPopUp = NSPopUpButton; 
+                mInspectorWindow = NSWindow; 
+                mPlaySoundButton = NSButton; 
+                mPlayerHeadPositionTextField = NSTextField; 
+                mPlayerHeadPositionUnitTextField = NSTextField; 
+                mSelFromTextField = NSTextField; 
+                mSelToTextField = NSTextField; 
+                mSelectionUnitTextField = NSTextField; 
+                mViewAppearance = NSView; 
+                mViewCharacteristics = NSView; 
+                mViewNameTextField = NSTextField; 
+                mViewView = NSView; 
+                mXAxisUnitTextField = NSTextField; 
+                mXFromTextField = NSTextField; 
+                mXToTextField = NSTextField; 
+                mYAxisUnitTextField = NSTextField; 
+                mYFromTextField = NSTextField; 
+                mYToTextField = NSTextField; 
+                mZoomIntoSelectionButton = NSButton; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = AudioInspectorWindow; LANGUAGE = ObjC; SUPERCLASS = NSPanel; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

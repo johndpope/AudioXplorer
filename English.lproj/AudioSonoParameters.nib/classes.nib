@@ -1,0 +1,28 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                closePanel = id; 
+                windowFunctionParameterTextFieldAction = id; 
+                windowFunctionTypePopUpAction = id; 
+                windowOffsetDividerButton = id; 
+                windowOffsetTextFieldAction = id; 
+                windowOffsetUnitPopUpAction = id; 
+                windowSizePopUpAction = id; 
+                windowSizeTextFieldAction = id; 
+            }; 
+            CLASS = AudioDialogSonoParameters; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                mWindowOffsetTextField = NSTextField; 
+                mWindowParameterTextField = NSTextField; 
+                mWindowParameterTitle = NSTextField; 
+                mWindowSizePopUp = NSPopUpButton; 
+                mWindowTypePopUp = NSPopUpButton; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,90 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                checkForUpdate = id; 
+                closeHowToInstallPlugInsPanel = id; 
+                continueAction = id; 
+                createRTWindow = id; 
+                downloadPlugIns = id; 
+                howToInstallPlugIns = id; 
+                reportBugsToArizona = id; 
+                showHelp = id; 
+                showInspector = id; 
+                showPrefs = id; 
+            }; 
+            CLASS = AudioApp; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                mAXVersionTextField = NSTextField; 
+                mAboutMenu = NSMenu; 
+                mEffectsMenu = NSMenu; 
+                mFirstLaunchPanel = NSPanel; 
+                mHelpMenu = NSMenu; 
+                mHowToInstalPlugInsPanel = NSPanel; 
+                mLoadingProgressIndicator = NSProgressIndicator; 
+                mLoadingPromptTextField = NSTextField; 
+                mLoadingView = NSView; 
+                mOpenActionButtonMatrix = NSMatrix; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = AudioApplication; LANGUAGE = ObjC; SUPERCLASS = NSApplication; }, 
+        {
+            ACTIONS = {
+                close = id; 
+                openAsPanel = id; 
+                openAsSheet = id; 
+                playAudioFromInternalBuffer = id; 
+                recordAudioFromInput = id; 
+            }; 
+            CLASS = AudioRecord; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                inputDeviceListPopUp = NSPopUpButton; 
+                inputDeviceStreamChannelListPopUp = NSPopUpButton; 
+                inputDeviceStreamListPopUp = NSPopUpButton; 
+                mParentObject = id; 
+                mPlayButton = NSButton; 
+                mRecordButton = NSButton; 
+                mRecordPanel = NSWindow; 
+                outputDeviceListPopUp = NSPopUpButton; 
+                outputDeviceStreamChannelListPopUp = NSPopUpButton; 
+                outputDeviceStreamListPopUp = NSPopUpButton; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                computeFFTOfCursorLocation = id; 
+                computeFFTOfSelection = id; 
+                computeSonoOfSelection = id; 
+                computeSonoOfVisualRange = id; 
+                createLinkedFFTView = id; 
+                currentViewFullScreen = id; 
+                currentWindowFullScreen = id; 
+                deleteCurrentView = id; 
+                deleteSelectedViews = id; 
+                doReverseXAxisScale = id; 
+                duplicate = id; 
+                exportAsAIFF = id; 
+                exportAsRawData = id; 
+                fftParameters = id; 
+                generateSound = id; 
+                importSoundFile = id; 
+                movePlayerheadToCursor = id; 
+                operations = id; 
+                performUndo = id; 
+                playSound = id; 
+                playSoundSelection = id; 
+                recordSound = id; 
+                redoLastEffect = id; 
+                sonoParameters = id; 
+            }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

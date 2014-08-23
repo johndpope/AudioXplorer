@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Introduzione</string>
+	<string>HIntroduction</string>
+	<string>Finestra statica</string>
+	<string>HStatic window</string>
+	<string>Finestra in tempo reale</string>
+	<string>HRT window</string>
+	<string>Preferenze</string>
+	<string>HPreferences</string>
+	<string>Tastiera</string>
+	<string>HKeyboard</string>
+	<string>Shareware, supporto e storia</string>
+	<string>HSupport</string>
+</array>
+</plist>

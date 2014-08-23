@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Il est possible d'obtenir plus d'options dans le menu Effets en pressant la touche Option</string>
+	<string>Cliquer et déplacer la souris sur les axes pour changer l'échelle</string>
+	<string>Cliquer en maintenant la touche Control enfoncée sur n'importe quelle vue pour faire apparaître un menu contextuel regroupant plusieurs fonctions courantes</string>
+	<string>Utiliser la fenêtre Inspecteur pour modifier les paramètres de la vue courante (fenêtre statique et fenêtre temps-réel)</string>
+	<string>Il est possible d'afficher le curseur pour différents canaux en pressant la touche 'c'. Chaque pression de touche modifie le curseur selon la séquence suivante: canal de gauche, canal de droit, aucun canal (invisible)</string>
+        <string>Il est possible de modifier visuellement le seuil du trigger avec la souris, dans la vue oscilloscope en temps-réel, en cliquant dans la vue tout en maintenant la touche Option pressée</string>
+</array>
+</plist>

@@ -1,0 +1,55 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                closeAndCancel = id; 
+                closeAndInsert = id; 
+                playAudioFromInternalBuffer = id; 
+                recordAudioFromInput = id; 
+                recordChannelAction = id; 
+            }; 
+            CLASS = AudioDialogRecord; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                mAddSoundButton = NSButton; 
+                mAudioRTInfo = AudioRTInfo; 
+                mChannelPopUp = NSPopUpButton; 
+                mGainTextField = NSTextField; 
+                mParentWindow = id; 
+                mPlayButton = NSButton; 
+                mProgressBar = NSProgressIndicator; 
+                mProgressTextField = NSTextField; 
+                mRecordButton = NSButton; 
+                mViewNameTextField = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {
+                applyUserGain = id; 
+                playthru = id; 
+                startMonitoring = id; 
+                stopMonitoring = id; 
+            }; 
+            CLASS = AudioRTInfo; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                mLeftLevelProgressBar = NSProgressIndicator; 
+                mLeftLevelTextField = NSTextField; 
+                mRightLevelProgressBar = NSProgressIndicator; 
+                mRightLevelTextField = NSTextField; 
+                mUserGainTextField = NSTextField; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = AudioView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {mDelegateObject = id; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {CLASS = AudioView2D; LANGUAGE = ObjC; SUPERCLASS = AudioView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

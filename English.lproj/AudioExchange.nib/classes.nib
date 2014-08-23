@@ -1,0 +1,24 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {exportAsImageCancel = id; exportAsImageCopy = id; }; 
+            CLASS = AudioExchange; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                mDataSource = id; 
+                mExportAIFFChannelPopUp = NSPopUpButton; 
+                mExportAIFFSavePanelView = NSView; 
+                mExportAIFFSelectionOnlyButton = NSButton; 
+                mExportAsImagePanel = NSPanel; 
+                mExportAsImageResolutionComboBox = NSComboBox; 
+                mExportRawDataChannelPopUp = NSPopUpButton; 
+                mExportRawDataDelimitersPopUp = NSPopUpButton; 
+                mExportRawDataSavePanelView = NSView; 
+                mExportRawDataSelectionOnlyButton = NSButton; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

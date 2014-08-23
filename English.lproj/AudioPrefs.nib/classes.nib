@@ -1,0 +1,87 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                computeSonoAction = id; 
+                computedViewPositionAction = id; 
+                cursorDirectionAction = id; 
+                displayTipDialogAction = id; 
+                effectsAsSubmenuAction = id; 
+                fullScaleVoltageAction = id; 
+                inspectorTransparencyAction = id; 
+                maxRecordDurationAction = id; 
+                openActionAction = id; 
+                popUpAction = id; 
+                preloadAudioUnitsAction = id; 
+                rtBufferDurationAction = id; 
+                rtFFTMaxXAction = id; 
+                rtFFTMinXAction = id; 
+                rtLayoutAction = id; 
+                rtSonoColorModeAction = id; 
+                rtSonoMaxYAction = id; 
+                rtSonoMinYAction = id; 
+                scrollerNavigationAction = id; 
+                useToolTipsAction = id; 
+                useVisualAnimationAction = id; 
+                yAxisFreeAction = id; 
+            }; 
+            CLASS = AudioDialogPrefs; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                mComputedViewPositionMatrix = NSMatrix; 
+                mCursorHorizontalButton = NSButton; 
+                mCursorVerticalButton = NSButton; 
+                mDefaultViewAppearanceBox = NSBox; 
+                mDevicesView = NSView; 
+                mDisplayTipDialogButton = NSButton; 
+                mEffectsAsSubmenuButton = NSButton; 
+                mEffectsView = NSView; 
+                mFullScaleVoltageTextField = NSTextField; 
+                mGeneralView = NSView; 
+                mInputDataSourceListPopUp = NSPopUpButton; 
+                mInputDeviceBox = NSBox; 
+                mInputDeviceListPopUp = NSPopUpButton; 
+                mInputDeviceView = NSView; 
+                mInputObtainedQuality = NSTextField; 
+                mInputRequestedQuality = NSTextField; 
+                mInspectorAlphaSlider = NSSlider; 
+                mMaximumRecordDurationTextField = NSTextField; 
+                mMixerTableView = NSTableView; 
+                mNoInputDeviceView = NSView; 
+                mOpenActionPopUp = NSPopUpButton; 
+                mOutputDataSourceListPopUp = NSPopUpButton; 
+                mOutputDeviceListPopUp = NSPopUpButton; 
+                mOutputObtainedQuality = NSTextField; 
+                mOutputRequestedQuality = NSTextField; 
+                mPreloadAudioUnitsUpButton = NSButton; 
+                mRTBufferDurationPopUp = NSPopUpButton; 
+                mRTComputeSonoButton = NSButton; 
+                mRTFFTMaxXTextField = NSTextField; 
+                mRTFFTMinXTextField = NSTextField; 
+                mRTLayoutPopUp = NSPopUpButton; 
+                mRTSonoColorModePopUp = NSPopUpButton; 
+                mRTSonoMaxYTextField = NSTextField; 
+                mRTSonoMinYTextField = NSTextField; 
+                mRTView = NSView; 
+                mUpdateView = NSView; 
+                mUseHorizontalScrollerButton = NSButton; 
+                mUseToolTipsButton = NSButton; 
+                mUseVerticalScrollerButton = NSButton; 
+                mUseVisualAnimationButton = NSButton; 
+                mVersionCheckerBox = NSBox; 
+                mViewsView = NSView; 
+                mYAxisFreeButton = NSButton; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            CLASS = AudioView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {mDelegateObject = id; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {CLASS = AudioView2D; LANGUAGE = ObjC; SUPERCLASS = AudioView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

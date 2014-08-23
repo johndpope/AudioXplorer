@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Press the Option key while opening the Effects menu will display more options</string>
+	<string>Click and drag the mouse over axis scale to modify it</string>
+	<string>Click and press Control key over any view to display a contextual menu with several useful function</string>
+	<string>Use the Inspector window to modify the current view (either in static or in real-time window)</string>
+	<string>Press the key 'c' to change the cursor current channel in the following way: left channel, right channel, no channel (hidden)</string>
+        <string>It is possible to change graphically the trigger threshold in the real-time oscilloscope view by clicking and holding the Option key</string>
+</array>
+</plist>

@@ -1,0 +1,24 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                lissajousPanelCancel = id; 
+                lissajousPanelOK = id; 
+                lissajousQualitySliderAction = id; 
+            }; 
+            CLASS = AudioDialogDisplayChannelOptions; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                mLissajousFromTextField = NSTextField; 
+                mLissajousPanel = NSPanel; 
+                mLissajousQualitySlider = NSSlider; 
+                mLissajousQualityTextField = NSTextField; 
+                mLissajousToTextField = NSTextField; 
+                mParentWindow = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

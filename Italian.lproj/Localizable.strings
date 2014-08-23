@@ -1,0 +1,198 @@
+
+"Generate or record a sound.\rDrag and drop any audio view here." = "Genera o registra un suono.\rTrascina qui un vista audio."; 
+"The file cannot be read because it has been saved with a newer version of AudioXplorer." = "Il file non puòessere letto perché è stato salvato con una versione piùrecente di AudioXplorer."; 
+"The file cannot be read because it has been saved with version 1.0b10 of AudioXplorer. The backward compatibility will be effective beginning with this version of AudioXplorer." = "Il file non puòessere letto perché è stato salvato con la versione 1.0b10 di AudioXplorer. La compatibilità all'indietro funziona a partire da questa versione di AudioXplorer."; 
+"Unable to perform operation." = "L'operazione non può essere effettuata."; 
+
+"There must be at least 2 amplitude views to open the operation panel." = "Devono esserci almeno 2 viste ampiezza per aprire il pannello operazione."; 
+"Do you really want to delete the view '%@' ?" = "Vuoi veramente cancellare la vista '%@'?"; 
+"Do you really want to delete all selected views ?" = "Vuoi veramente cancellare tutte le viste selezionate?"; 
+"This action cannot be undone." = "Questa azione non può essere annullata."; 
+
+"Supports only 8, 16 or 32 bits sample size (this file is %d bits)." = "Supporta solo 8, 16 o 32 bit di dimensione di campionamento (questo file è da %d bit)."; 
+"Supports only 22.05 kHz or 44.1 kHz file rate (this file is %f Hz)." = "Supporta solo 22.05 kHz o 44.1 kHz di tasso di campionamento (Questo file è da %f Hz)."; 
+"Unable to allocate memory for the converted sound." = "Non si può allocare memoria per il suono convertito."; 
+"First chunk is not 'FORM' but '%@'" = "Il primo pezzo non è 'FORM' ma '%@'"; 
+"AudioXplorer doesn't support compressed file yet (%@)." = "AudioXplorer non supporta ancora i file compressi (%@)."; 
+
+"View" = "Vista"; 
+"Time" = "Tempo"; 
+"Amplitude" = "Ampiezza"; 
+"Frequency" = "Frequenza";
+"Spectrum" = "Spettro";
+"Module" = "Modulo"; 
+"Play" = "Riproduci"; 
+"Stop" = "Stop"; 
+"Record" = "Registra"; 
+"Delete" = "Cancella"; 
+"Cancel" = "Annulla"; 
+"Done" = "Fatto"; 
+"Sound" = "Suono";
+
+"Stereo" = "Stereo"; 
+"Mono" = "Mono"; 
+"Left" = "Sinistro";
+"Right" = "Destro";
+
+"Stereo = Mono(+)Mono" = "Stereo = Mono(+)Mono"; 
+"Stereo = Left(+)Left" = "Stereo = Sinistro(+)Sinistro"; 
+"Stereo = Left(+)Right" = "Stereo = Sinistro(+)Destro"; 
+"Stereo = Right(+)Right" = "Stereo = Sinistro(+)Destro"; 
+
+"%@ - %@ Hz - %hi bits/channel" = "%@ - %@ Hz - %hi bit/canale"; 
+"Not available" = "Non disponibile"; 
+
+// Error message
+
+"Unable to open real-time window" = "La finestra in tempo reale non può essere aperta"; 
+"Unable to record sound" = "Il suono non può essere registrato"; 
+"No record device detected." = "Nessuna periferica di registrazione presente."; 
+
+// Feedback
+
+"mailto:audioxplorer@arizona-software.ch?subject=Comments%20about%20AudioXplorer" = "mailto:audioxplorer@arizona-software.ch?subject=Commenti%20su%20AudioXplorer"; 
+
+// Import/export
+
+"Importing AIFF file…" = "Importazione del file AIFF…"; 
+"Unable to import data from file." = "Non si possono importare dati dal file."; 
+"Exporting to AIFF file" = "Esportazione del file AIFF…"; 
+"Unable to export data to file." = "Non si possono esportare dati nel file."; 
+
+"An error has occured when trying to launch the importer process" = "Si è verificato un errore nell'avvio del processo di importazione";
+
+"Export" = "Esportazione"; 
+"Exporting raw data" = "Esportazione di dati grezzi…"; 
+
+// AudioView contextual menu
+
+"Print" = "Stampa…"; 
+"Export As Raw Data" = "Esporta come dati grezzi…"; 
+"Export As AIFF" = "Esporta come AIFF…"; 
+"Copy To Clipboard" = "Copia negli appunti"; 
+"As Image" = "Come immagine…"; 
+"As PDF" = "Come PDF"; 
+"As EPS" = "Come EPS"; 
+
+// Operations
+
+"Computing sonogram" = "Calcolo sonogramma…"; 
+"Computing spectrum" = "Calcolo spettro…"; 
+"Copying" = "Copia"; 
+
+// FFT window
+
+"Rectangular" = "Rettangolare"; 
+
+// Tool-tips
+
+"X-axis tool-tips." = "Clic per estendere l'intervallo dell'asse X.\rMela-clic per muovere l'intervallo dell'asse X.\rMela-maiuscole-clic per posizionare lo zero sul cursore.\rAlt-clic e alt-maiuscole-clic per estendere l'asse X da sotto o da sopra."; 
+"Y-axis tool-tips." = "Clic per estendere l'intervallo dell'asse Y.\rMela-clic per muovere l'intervallo dell'asse Y.\rMela-maiuscole-clic per posizionare lo zero sul cursore.\rAlt-clic e alt-maiuscole-clic per estendere l'asse Y da sotto o da sopra."; 
+
+"Click to extend the x-axis range.\rShift-click to move the x-axis range." = "Clic per estendere l'intervallo dell'asse x.\rMaiuscole-clic per spostare l'intervallo in dell'asse x";
+"Click to extend the y-axis range.\rShift-click to move the y-axis range." = "Clic per estendere l'intervallo dell'asse y.\rMaiuscole-clic per spostare l'intervallo dell'asse y.";
+"Click to move the cursor.\rOption-click to move the playearhead.\rShift-click and move to select a portion of data." = "Clic per muovere il cursore.\rAlt-clic per muovere la testina.\rMaiuscole-clic e trascina per selezionare una porzione di dati."; 
+"Click to select the view.\rDrag-and-drop can be initiated by clicking in the title." = "Clic per selezionare la vista.\rIl drag-and-drop pu essere iniziato facendo clic sul titolo."; 
+"Drag any item to one of the right view." = "Trascina un oggetto qualunque su una delle viste a destra."; 
+
+// ST window toolbar items
+
+"View List Display Mode Button" = "Vista Lista Mostra Modo Pulsante"; 
+"Change the display mode of the view list" = "Cambia la visualizzazione della lista delle viste"; 
+
+// RT window toolbar items
+
+"Enable Button" = "Attiva pulsante"; 
+"Interval PopUp" = "PopUp intervallo"; 
+"Channel PopUp" = "PopUp canale"; 
+
+"Enable the real-time monitoring" = "Attiva il monitoraggio in tempo reale"; 
+"Choose the monitoring interval" = "Scegli l'intervallo di monitoraggio"; 
+"Channel to be displayed" = "Canale da mostrare"; 
+
+"Interval" = "Intervallo";
+"Channel" = "Canale";
+"Resolution" = "Risoluzione";
+
+// Inspector items
+
+"View" = "Viste";
+"Appearance" = "Visualizzazione"; 
+"Characteristics" = "Caratteristiche"; 
+"Layout" = "Layout"; 
+"General" = "Generale";
+
+"All views" = "Tutte le viste";
+"Amplitude" = "Ampiezza";
+"Sonogram" = "Sonogramma";
+"Spectrum" = "Spettro";
+"Oscilloscope+Spectrum" = "Oscilloscopio+Spettro";
+"Oscilloscope+Sonogram" = "Oscilloscopio+Sonogramma";
+"Spectrum+Sonogram" = "Spettro+Sonogramma";
+
+// Exceptions
+
+"Unable to load the file" = "Il file non può essere caricato"; 
+"Cannot read file saved from a previous beta version." = "Un file di una precedente versione beta non puòessere letto."; 
+
+// Appearance
+
+"Display" = "Mostra";
+"Label" = "Etichetta";
+"Color" = "Colore";
+
+"Title" = "Titolo";
+"Selection" = "Selezione";
+"Cursor" = "Cursore";
+"Playerhead" = "Testina";
+"X-axis" = "Asse X";
+"Y-axis" = "Asse Y";
+"Background" = "Sfondo";
+"Data" = "Dati";
+"Grid" = "Griglia";
+
+// Sonogram
+
+"Grayscale" = "Scala di grigi";
+"Fire" = "Fuoco";
+"Cold" = "Freddo";
+"Chromatic" = "Cromatico";
+
+// Plug-ins
+
+"Bad plug in reason A" = "Il plug-in dice di essere di tipo SINGLE ma methodTitle ritorna NULL"; 
+"Bad plug in reason B" = "Il plug-in dice di essere di tipo SINGLE ma methodName ritorna NULL"; 
+"Bad plug in reason C" = "Il plug-in dice di essere di tipo MULTIPLE ma methodTitles ritorna NULL"; 
+"Bad plug in reason D" = "Il plug-in dice di essere di tipo MULTIPLE ma methodNames ritorna NULL"; 
+
+"Bad plug in reason E" = "Tipo plug-in sconosciuto"; 
+"Bad plug in reason F" = "Il plug-in non eredita da AXPlugInBaseClass"; 
+
+"Path:" = "Percorso:";
+"Class:" = "Classe:";
+
+// Loading application
+
+"Preparing..." = "Preparazione…";
+"Converting..." = "Conversione…";
+"Reading the converted data..." = "Lettura dei dati convertiti…";
+"Unable to import the file" = "Non posso importare il file";
+
+"Initializing..." = "Inizializzazione…";
+"Loading Preferences..." = "Caricamento preferenze…";
+"Loading Effects..." = "Caricamento effetti…";
+
+// Registration function disabled messages
+
+"Save feature disabled" = "Registrazione disattivata";
+"Maximum record duration is limited to 10s" = "Massima durata registrazione 10 s";
+"Cannot create more than 4 views" = "Non più di quattro viste";
+
+"Register AudioXplorer to remove this limitation." = "Registrate AudioXplorer per rimuovere questa limitazione";
+
+// Sound Importation
+
+"Preparing..." = "Preparazione…";
+"Converting..." = "Conversione…";
+"Reading the converted data..." = "Lettura dei data convertiti…";
+"Unable to import the file" = "Non posso importare il file";

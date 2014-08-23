@@ -1,0 +1,46 @@
+{
+    IBClasses = (
+        {
+            CLASS = AudioRTDisplayer; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {mAmplitudeView = AudioView2D; mFFTView = AudioView2D; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                channelAction = id; 
+                closeFullScreenForWindow = id; 
+                enableAction = id; 
+                intervalAction = id; 
+                playthruAction = id; 
+                resolutionAction = id; 
+            }; 
+            CLASS = AudioRTWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                mChannelPopUp = NSPopUpButton; 
+                mChannelToolbarView = NSView; 
+                mEnableButton = NSButton; 
+                mEnableToolbarView = NSView; 
+                mFullScreenBoxForWindow = NSBox; 
+                mFullScreenPanelForWindow = NSPanel; 
+                mIntervalPopUp = NSPopUpButton; 
+                mIntervalToolbarView = NSView; 
+                mPlaythruToolbarView = NSView; 
+                mResolutionPopUp = NSPopUpButton; 
+                mResolutionToolbarView = NSView; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            CLASS = AudioView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {mDelegateObject = id; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {CLASS = AudioView2D; LANGUAGE = ObjC; SUPERCLASS = AudioView; }, 
+        {CLASS = AudioView3D; LANGUAGE = ObjC; SUPERCLASS = AudioView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

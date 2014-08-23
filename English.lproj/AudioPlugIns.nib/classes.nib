@@ -1,0 +1,24 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {aboutEffect = id; closeAboutPlugInPanel = id; closePlugInProblemPanel = id; }; 
+            CLASS = AudioPlugInsController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                mAboutPlugInPanel = NSPanel; 
+                mAuthorsTextField = NSTextField; 
+                mDescriptionTextField = NSTextField; 
+                mParameterATextField = NSTextField; 
+                mParameterBTextField = NSTextField; 
+                mPlugInProblemPanel = NSPanel; 
+                mTitleTextField = NSTextField; 
+                mVariableATextField = NSTextField; 
+                mVariableBTextField = NSTextField; 
+                mVersionTextField = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

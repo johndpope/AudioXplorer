@@ -1,0 +1,8 @@
+/* Date */
+"%@ at %@" = "%@ um %@";
+
+/* File Size */
+"0 byte" = "0 Byte";
+"%i bytes" = "%i Bytes";
+"%0.1f Kb" = "%0.1f Kb";
+"%0.1f Mb" = "%0.1f Mb";

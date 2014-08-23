@@ -1,0 +1,19 @@
+"Check For Updates" = "Check For Updates";
+
+"Connection Error Title" = "An error occurred while checking for updates";
+"Connection Error Message" = "The update server could not be found. Make sure your network is configured properly, then try again.";
+"No Update Title" =  "This version is up to date";
+"No Update Message" = "Please try again later.";
+
+"Updates detected" = "Updates detected";
+"Next check scheduled on: %@" = "Next check scheduled on: %@";
+"Successful. %@." = "Successful. %@.";
+"Failed. %@." = "Failed. %@.";
+"None." = "None.";
+"Total Size: %@" = "Total Size: %@";
+"Opening %@..." = "Opening %@...";
+"Downloading %@..." = "Downloading %@...";
+"Copying %@..." = "Copying %@...";
+"Failed to download all updates" = "Failed to download all updates";
+"The download of %@ was interrupted for the following reason: %@" = "The download of %@ was interrupted for the following reason: %@";
+"Current Localization" = "English";

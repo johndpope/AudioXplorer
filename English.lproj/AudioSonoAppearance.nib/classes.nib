@@ -1,0 +1,25 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                colorsPopUpAction = id; 
+                contrastSliderAction = id; 
+                gainSliderAction = id; 
+                inverseButtonAction = id; 
+            }; 
+            CLASS = AudioSonoAppearanceController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                mAppearanceView = NSView; 
+                mColorsPopUp = NSPopUpButton; 
+                mContrastSlider = NSSlider; 
+                mDelegate = id; 
+                mGainSlider = NSSlider; 
+                mInverseButton = NSButton; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

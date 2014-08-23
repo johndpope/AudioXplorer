@@ -1,0 +1,19 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {cancelPanel = id; closeAndPerformPanel = id; popUpAction = id; }; 
+            CLASS = AudioOperationsController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                mOperationPopUp = NSPopUpButton; 
+                mViewAPopUp = NSPopUpButton; 
+                mViewBPopUp = NSPopUpButton; 
+                mViewResultNameTextField = NSTextField; 
+                mWindowController = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

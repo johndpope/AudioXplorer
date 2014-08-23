@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCF2B86A0A5B902400969481 /* AXPlugIns_Prefix.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCF630370AF2F00C91783 /* AXPlugIns_Prefix.h */; };
+		DCF2B86B0A5B902400969481 /* AXPlugIns.h in Headers */ = {isa = PBXBuildFile; fileRef = A79829DA046BE50E0053249A /* AXPlugIns.h */; };
+		DCF2B86C0A5B902400969481 /* AXPlugInsGainController.h in Headers */ = {isa = PBXBuildFile; fileRef = A79829F8046C03820053249A /* AXPlugInsGainController.h */; };
+		DCF2B86D0A5B902400969481 /* AXPlugInHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = A7822146048534C3007635FB /* AXPlugInHeader.h */; };
+		DCF2B86F0A5B902400969481 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		DCF2B8700A5B902400969481 /* AXPlugInsGain.nib in Resources */ = {isa = PBXBuildFile; fileRef = A79829F5046C03560053249A /* AXPlugInsGain.nib */; };
+		DCF2B8710A5B902400969481 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7982A01046C0FEE0053249A /* Localizable.strings */; };
+		DCF2B8730A5B902400969481 /* AXPlugIns.m in Sources */ = {isa = PBXBuildFile; fileRef = A79829DB046BE50E0053249A /* AXPlugIns.m */; };
+		DCF2B8740A5B902400969481 /* AXPlugInsGainController.m in Sources */ = {isa = PBXBuildFile; fileRef = A79829F9046C03820053249A /* AXPlugInsGainController.m */; };
+		DCF2B8760A5B902400969481 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF630370AF2F00C91783 /* AXPlugIns_Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXPlugIns_Prefix.h; sourceTree = "<group>"; };
+		A7822146048534C3007635FB /* AXPlugInHeader.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AXPlugInHeader.h; sourceTree = "<group>"; };
+		A79829DA046BE50E0053249A /* AXPlugIns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXPlugIns.h; sourceTree = "<group>"; };
+		A79829DB046BE50E0053249A /* AXPlugIns.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXPlugIns.m; sourceTree = "<group>"; };
+		A79829F6046C03560053249A /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/AXPlugInsGain.nib; sourceTree = "<group>"; };
+		A79829F8046C03820053249A /* AXPlugInsGainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXPlugInsGainController.h; sourceTree = "<group>"; };
+		A79829F9046C03820053249A /* AXPlugInsGainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXPlugInsGainController.m; sourceTree = "<group>"; };
+		A79829FF046C0FE00053249A /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A7982A03046C0FF20053249A /* French */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A7982A04046C100D0053249A /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/AXPlugInsGain.nib; sourceTree = "<group>"; };
+		DCF2B87C0A5B902400969481 /* Info-AXPlugIns.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-AXPlugIns.plist"; sourceTree = "<group>"; };
+		DCF2B87D0A5B902400969481 /* ChCurvusProAXPlugIns.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChCurvusProAXPlugIns.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCF2B8750A5B902400969481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF2B8760A5B902400969481 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* AXPlugIns */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+				DCF2B87C0A5B902400969481 /* Info-AXPlugIns.plist */,
+			);
+			name = AXPlugIns;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A7982A01046C0FEE0053249A /* Localizable.strings */,
+				A79829F5046C03560053249A /* AXPlugInsGain.nib */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A79829F8046C03820053249A /* AXPlugInsGainController.h */,
+				A79829F9046C03820053249A /* AXPlugInsGainController.m */,
+				A7822146048534C3007635FB /* AXPlugInHeader.h */,
+				A79829DA046BE50E0053249A /* AXPlugIns.h */,
+				A79829DB046BE50E0053249A /* AXPlugIns.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCF2B87D0A5B902400969481 /* ChCurvusProAXPlugIns.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF630370AF2F00C91783 /* AXPlugIns_Prefix.h */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DCF2B8690A5B902400969481 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF2B86A0A5B902400969481 /* AXPlugIns_Prefix.h in Headers */,
+				DCF2B86B0A5B902400969481 /* AXPlugIns.h in Headers */,
+				DCF2B86C0A5B902400969481 /* AXPlugInsGainController.h in Headers */,
+				DCF2B86D0A5B902400969481 /* AXPlugInHeader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DCF2B8680A5B902400969481 /* AXPlugIns */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF2B8780A5B902400969481 /* Build configuration list for PBXNativeTarget "AXPlugIns" */;
+			buildPhases = (
+				DCF2B8690A5B902400969481 /* Headers */,
+				DCF2B86E0A5B902400969481 /* Resources */,
+				DCF2B8720A5B902400969481 /* Sources */,
+				DCF2B8750A5B902400969481 /* Frameworks */,
+				DCF2B8770A5B902400969481 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AXPlugIns;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = AXPlugIns;
+			productReference = DCF2B87D0A5B902400969481 /* ChCurvusProAXPlugIns.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = A76E954B09202AE400005632 /* Build configuration list for PBXProject "AXPlugIns" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* AXPlugIns */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCF2B8680A5B902400969481 /* AXPlugIns */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCF2B86E0A5B902400969481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF2B86F0A5B902400969481 /* InfoPlist.strings in Resources */,
+				DCF2B8700A5B902400969481 /* AXPlugInsGain.nib in Resources */,
+				DCF2B8710A5B902400969481 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		DCF2B8770A5B902400969481 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCF2B8720A5B902400969481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF2B8730A5B902400969481 /* AXPlugIns.m in Sources */,
+				DCF2B8740A5B902400969481 /* AXPlugInsGainController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A79829F5046C03560053249A /* AXPlugInsGain.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A79829F6046C03560053249A /* English */,
+				A7982A04046C100D0053249A /* French */,
+			);
+			name = AXPlugInsGain.nib;
+			sourceTree = "<group>";
+		};
+		A7982A01046C0FEE0053249A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A79829FF046C0FE00053249A /* English */,
+				A7982A03046C0FF20053249A /* French */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A76E954C09202AE400005632 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET_i386 = 10.4;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.3;
+				SDKROOT = macosx;
+			};
+			name = Development;
+		};
+		A76E954D09202AE400005632 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET_i386 = 10.4;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.3;
+				SDKROOT = macosx;
+			};
+			name = Deployment;
+		};
+		A76E954E09202AE400005632 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET_i386 = 10.4;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.3;
+				SDKROOT = macosx;
+			};
+			name = Default;
+		};
+		DCF2B8790A5B902400969481 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AXPlugIns_Prefix.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-AXPlugIns.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ChCurvusProAXPlugIns;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		DCF2B87A0A5B902400969481 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AXPlugIns_Prefix.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-AXPlugIns.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ChCurvusProAXPlugIns;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		DCF2B87B0A5B902400969481 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AXPlugIns_Prefix.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-AXPlugIns.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ChCurvusProAXPlugIns;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A76E954B09202AE400005632 /* Build configuration list for PBXProject "AXPlugIns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A76E954C09202AE400005632 /* Development */,
+				A76E954D09202AE400005632 /* Deployment */,
+				A76E954E09202AE400005632 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		DCF2B8780A5B902400969481 /* Build configuration list for PBXNativeTarget "AXPlugIns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF2B8790A5B902400969481 /* Development */,
+				DCF2B87A0A5B902400969481 /* Deployment */,
+				DCF2B87B0A5B902400969481 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

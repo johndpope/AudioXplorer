@@ -1,0 +1,2825 @@
+// !$*UTF8*$!
+{
+	2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+		activeArchitecturePreference = i386;
+		activeBuildConfigurationName = Release;
+		activeExecutable = A7C6E3CD05E1171B0059284A /* AudioXplorer */;
+		activeSDKPreference = macosx10.6;
+		activeTarget = A7C6E2DA05E1171A0059284A /* AudioXplorer */;
+		addToTargets = (
+			A7C6E2DA05E1171A0059284A /* AudioXplorer */,
+		);
+		breakpoints = (
+			A752D01A0AD5FA0E00706428 /* NSAssert() */,
+			A752D0290AD5FAC600706428 /* [NSInternalInconsistencyException raise] */,
+			A7891FA11056250300CA3458 /* _NSLockError */,
+		);
+		codeSenseManager = A775D5A40585B305009FBE8B /* Code sense */;
+		executables = (
+			A7C6E3CD05E1171B0059284A /* AudioXplorer */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					210,
+					20,
+					110,
+					109,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					431.2085,
+					416.5991,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBookmarksDataSource_LocationID,
+					PBXBookmarksDataSource_NameID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					529.8799,
+					287.2085,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					400,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1252,
+					20,
+					117,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					466,
+					420,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					261.8008,
+					290.0356,
+					267.2085,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1211,
+					60,
+					20,
+					118,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 281737468;
+			PBXPrepackagedSmartGroups_v2 = (
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					activationKey = OldTargetSmartGroup;
+					clz = PBXTargetSmartGroup;
+					description = "Displays all targets of the project.";
+					globalID = 1C37FABC04509CD000000102;
+					name = Targets;
+					preferences = {
+						image = Targets;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXTargetSmartGroup2;
+					description = "Displays all targets of the project as well as nested build phases.";
+					globalID = 1C37FBAC04509CD000000102;
+					name = Targets;
+					preferences = {
+						image = Targets;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXExecutablesSmartGroup;
+					description = "Displays all executables of the project.";
+					globalID = 1C37FAAC04509CD000000102;
+					name = Executables;
+					preferences = {
+						image = Executable;
+					};
+				},
+				{
+					" PBXTransientLocationAtTop " = bottom;
+					absolutePathToBundle = "";
+					clz = PBXErrorsWarningsSmartGroup;
+					description = "Displays files with errors or warnings.";
+					globalID = 1C08E77C0454961000C914BD;
+					name = "Errors and Warnings";
+					preferences = {
+						fnmatch = "";
+						image = WarningsErrors;
+						recursive = 1;
+						regex = "";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXFilenameSmartGroup;
+					description = "Filters items in a given group (potentially recursively) based on matching the name with the regular expression of the filter.";
+					globalID = 1CC0EA4004350EF90044410B;
+					name = "Implementation Files";
+					preferences = {
+						canSave = 1;
+						fnmatch = "";
+						image = SmartFolder;
+						isLeaf = 0;
+						recursive = 1;
+						regex = "?*\\.[mcMC]";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXFilenameSmartGroup;
+					description = "This group displays Interface Builder NIB Files.";
+					globalID = 1CC0EA4004350EF90041110B;
+					name = "NIB Files";
+					preferences = {
+						canSave = 1;
+						fnmatch = "*.nib";
+						image = SmartFolder;
+						isLeaf = 0;
+						recursive = 1;
+						regex = "";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = no;
+					absolutePathToBundle = "";
+					clz = PBXFindSmartGroup;
+					description = "Displays Find Results.";
+					globalID = 1C37FABC05509CD000000102;
+					name = "Find Results";
+					preferences = {
+						image = spyglass;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = no;
+					absolutePathToBundle = "";
+					clz = PBXBookmarksSmartGroup;
+					description = "Displays Project Bookmarks.";
+					globalID = 1C37FABC05539CD112110102;
+					name = Bookmarks;
+					preferences = {
+						image = Bookmarks;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = XCSCMSmartGroup;
+					description = "Displays files with interesting SCM status.";
+					globalID = E2644B35053B69B200211256;
+					name = SCM;
+					preferences = {
+						image = PBXRepository;
+						isLeaf = 0;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXSymbolsSmartGroup;
+					description = "Displays all symbols for the project.";
+					globalID = 1C37FABC04509CD000100104;
+					name = "Project Symbols";
+					preferences = {
+						image = ProjectSymbols;
+						isLeaf = 1;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXFilenameSmartGroup;
+					description = "Filters items in a given group (potentially recursively) based on matching the name with the regular expression of the filter.";
+					globalID = PBXTemplateMarker;
+					name = "Simple Filter SmartGroup";
+					preferences = {
+						canSave = 1;
+						fnmatch = "*.nib";
+						image = SmartFolder;
+						isLeaf = 0;
+						recursive = 1;
+						regex = "";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXFilenameSmartGroup;
+					description = "Filters items in a given group (potentially recursively) based on matching the name with the regular expression of the filter.";
+					globalID = PBXTemplateMarker;
+					name = "Simple Regular Expression SmartGroup";
+					preferences = {
+						canSave = 1;
+						fnmatch = "";
+						image = SmartFolder;
+						isLeaf = 0;
+						recursive = 1;
+						regex = "?*\\.[mcMC]";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					clz = XDDesignSmartGroup;
+					description = "Displays Xdesign models";
+					globalID = 2E4A936305E6979E00701470;
+					name = Design;
+					preferences = {
+						image = Design;
+						isLeaf = 0;
+					};
+				},
+			);
+			PBXWorkspaceContents = (
+				{
+					PBXProjectWorkspaceModule_StateKey_Rev39 = {
+						PBXProjectWorkspaceModule_DEGV_Geometry = {
+							_collapsingFrameDimension = 0;
+							_indexOfCollapsedView = 0;
+							_percentageOfCollapsedView = 0;
+							isCollapsed = yes;
+							sizes = (
+								"{{0, 0}, {860, 141}}",
+								"{{0, 141}, {860, 531}}",
+							);
+						};
+						PBXProjectWorkspaceModule_DataSourceSelectionKey_Rev6 = {
+							BoundsStr = "{{0, 0}, {845, 124}}";
+							Rows = (
+								0,
+							);
+							VisibleRectStr = "{{0, 0}, {845, 124}}";
+						};
+						PBXProjectWorkspaceModule_EditorOpen = true;
+						PBXProjectWorkspaceModule_EmbeddedNavigatorGroup = {
+							PBXSplitModuleInNavigatorKey = {
+								Split0 = {
+									bookmark = A79F3546068B70FC00485160;
+									history = (
+										A776212C059976EE008A0287,
+										A776212D059976EE008A0287,
+										A776212E059976EE008A0287,
+										A705727F05B2FB37001B9646,
+										A705728205B2FB37001B9646,
+										A705728505B2FB37001B9646,
+										A705728605B2FB37001B9646,
+										A705728705B2FB37001B9646,
+										A7B681BE05B32B6B00DC92DB,
+										A7B681C205B32B6B00DC92DB,
+										A7B681C305B32B6B00DC92DB,
+										A7B681C405B32B6B00DC92DB,
+										A7B681C505B32B6B00DC92DB,
+										A7B681CC05B32B6B00DC92DB,
+										A7B6826505B3C96600DC92DB,
+										A7B6826605B3C96600DC92DB,
+										A7B6826705B3C96600DC92DB,
+										A7B6826805B3C96600DC92DB,
+										A7B6826A05B3C96600DC92DB,
+										A7B6827105B3C96600DC92DB,
+										A7B6827205B3C96600DC92DB,
+										A7B6827305B3C96600DC92DB,
+										A7B6827405B3C96600DC92DB,
+										A7B6827505B3C96600DC92DB,
+										A7B6827605B3C96600DC92DB,
+										A7B6827705B3C96600DC92DB,
+										A7B6827805B3C96600DC92DB,
+										A763556B05B5E35B0096D9C9,
+										A763556E05B5E35B0096D9C9,
+										A763556F05B5E35B0096D9C9,
+										A763557005B5E35B0096D9C9,
+										A763557105B5E35B0096D9C9,
+										A763557305B5E35B0096D9C9,
+										A763557505B5E35B0096D9C9,
+										A763557805B5E35B0096D9C9,
+										A763557A05B5E35B0096D9C9,
+										A763557F05B5E35B0096D9C9,
+										A763558205B5E35B0096D9C9,
+										A763558605B5E35B0096D9C9,
+										A786D8DE05B8477500A977AB,
+										A786D8DF05B8477500A977AB,
+										A786D8E105B8477500A977AB,
+										A786D8E205B8477500A977AB,
+										A786D8E405B8477500A977AB,
+										A786D8E605B8477500A977AB,
+										A786D8E705B8477500A977AB,
+										A786D8F205B8477500A977AB,
+										A786D8F305B8477500A977AB,
+										A786D8F605B8477500A977AB,
+										A786D8FE05B8477500A977AB,
+										A786D8FF05B8477500A977AB,
+										A786D90005B8477500A977AB,
+										A786D95505B867C800A977AB,
+										A786D95605B867C800A977AB,
+										A786D95805B867C800A977AB,
+										A7A2EFD105BB3B2700DA2305,
+										A7A2EFD305BB3B2700DA2305,
+										A7462C6C05BC8AF50034C6BD,
+										A77A988505D6549F00C5199B,
+										A77A988605D6549F00C5199B,
+										A77A988B05D6549F00C5199B,
+										A77A988C05D6549F00C5199B,
+										A77A988D05D6549F00C5199B,
+										A77A988E05D6549F00C5199B,
+										A77A988F05D6549F00C5199B,
+										A77A989005D6549F00C5199B,
+										A77A989705D6549F00C5199B,
+										A77A989805D6549F00C5199B,
+										A776C2BC05D66E3F0059C740,
+										A776C2BF05D66E3F0059C740,
+										A776C3D305D75C7B0059C740,
+										A7C6E3EF05E11CBD0059284A,
+										A7C6E3F005E11CBD0059284A,
+										A7C6E3F205E11CBD0059284A,
+										A72FBFCD05E1FC7C00EA3EEF,
+										A72FBFCE05E1FC7C00EA3EEF,
+										A72FBFCF05E1FC7C00EA3EEF,
+										A72FBFD005E1FC7C00EA3EEF,
+										A72FBFD105E1FC7C00EA3EEF,
+										A72FBFD205E1FC7C00EA3EEF,
+										A72FC0BF05E1FE3900EA3EEF,
+										A766F12E05E95162002B4DC7,
+										A766F12F05E95162002B4DC7,
+										A766F13005E95162002B4DC7,
+										A766F13205E95162002B4DC7,
+										A77AF93F05F6ABEB00B618C2,
+										A77AF94305F6ABEB00B618C2,
+										A77AF94405F6ABEB00B618C2,
+										A772A96A06076B4200B70FAE,
+										A74AFC750608AD3E000F59CA,
+										A74AFC760608AD3E000F59CA,
+										A728AC16061174E10060C3A5,
+										A728AC17061174E10060C3A5,
+										A79A41FF061CB36F000EE89F,
+										A79A4203061CB399000EE89F,
+										A79A4207061CB3A5000EE89F,
+										A79A4210061CB3B0000EE89F,
+										A79A4217061CB3B4000EE89F,
+										A7F73EFD0638EC3000FECCB2,
+										A7374A6206592F44001FF1C2,
+										A7374A6706592F46001FF1C2,
+										A79F350F068AAF5300485160,
+										A79F3513068AAF6F00485160,
+										A79F3517068AAF8500485160,
+										A79F351C068AAF9900485160,
+										A79F3523068AAFDC00485160,
+										A79F352E068AB03100485160,
+										A79F352F068AB03100485160,
+									);
+									prevStack = (
+										A7762131059976EE008A0287,
+										A7762132059976EE008A0287,
+										A7762133059976EE008A0287,
+										A7762135059976EE008A0287,
+										A7762140059976EE008A0287,
+										A70571C805B1FD4E001B9646,
+										A705724805B27A44001B9646,
+										A705724B05B27A44001B9646,
+										A705724C05B27A44001B9646,
+										A705724E05B27A44001B9646,
+										A705729305B2FB37001B9646,
+										A705729405B2FB37001B9646,
+										A705729605B2FB37001B9646,
+										A705729905B2FB37001B9646,
+										A70572A005B2FB37001B9646,
+										A70572AB05B2FB37001B9646,
+										A70572AC05B2FB37001B9646,
+										A70572AD05B2FB37001B9646,
+										A70572AE05B2FB37001B9646,
+										A70572B805B2FB37001B9646,
+										A70572B905B2FB37001B9646,
+										A70572BA05B2FB37001B9646,
+										A7B681D105B32B6B00DC92DB,
+										A7B681D205B32B6B00DC92DB,
+										A7B681D505B32B6B00DC92DB,
+										A7B681DA05B32B6B00DC92DB,
+										A7B681DB05B32B6B00DC92DB,
+										A7B681DC05B32B6B00DC92DB,
+										A7B681DD05B32B6B00DC92DB,
+										A7B681E605B32B6B00DC92DB,
+										A7B681F805B32B7F00DC92DB,
+										A7B6828C05B3C96600DC92DB,
+										A7B6828D05B3C96600DC92DB,
+										A7B6828E05B3C96600DC92DB,
+										A7B682A005B3C96600DC92DB,
+										A7B682B805B3C96600DC92DB,
+										A7B682B905B3C96600DC92DB,
+										A7B682BA05B3C96600DC92DB,
+										A7B682BB05B3C96600DC92DB,
+										A7B682BC05B3C96600DC92DB,
+										A7B682BD05B3C96600DC92DB,
+										A7B682BE05B3C96600DC92DB,
+										A7B682BF05B3C96600DC92DB,
+										A7B682C005B3C96600DC92DB,
+										A7B682C105B3C96600DC92DB,
+										A7B682CA05B3C96600DC92DB,
+										A7B682D605B3C96600DC92DB,
+										A7B682D705B3C96600DC92DB,
+										A7B682D805B3C96600DC92DB,
+										A763558805B5E35B0096D9C9,
+										A763558905B5E35B0096D9C9,
+										A763558A05B5E35B0096D9C9,
+										A763558B05B5E35B0096D9C9,
+										A763558C05B5E35B0096D9C9,
+										A763558D05B5E35B0096D9C9,
+										A763558E05B5E35B0096D9C9,
+										A763558F05B5E35B0096D9C9,
+										A763559105B5E35B0096D9C9,
+										A763559205B5E35B0096D9C9,
+										A763559F05B5E35B0096D9C9,
+										A76355A005B5E35B0096D9C9,
+										A76355A105B5E35B0096D9C9,
+										A76355A305B5E35B0096D9C9,
+										A76355A405B5E35B0096D9C9,
+										A76355A505B5E35B0096D9C9,
+										A76355A905B5E35B0096D9C9,
+										A76355AD05B5E35B0096D9C9,
+										A76355BE05B5E35B0096D9C9,
+										A76355C005B5E35B0096D9C9,
+										A76355C105B5E35B0096D9C9,
+										A76355D905B5E35B0096D9C9,
+										A76355DA05B5E35B0096D9C9,
+										A76355DB05B5E35B0096D9C9,
+										A76355DC05B5E35B0096D9C9,
+										A76355DD05B5E35B0096D9C9,
+										A786D90F05B8477500A977AB,
+										A786D91405B8477500A977AB,
+										A786D91805B8477500A977AB,
+										A786D91905B8477500A977AB,
+										A786D91A05B8477500A977AB,
+										A786D91B05B8477500A977AB,
+										A786D92505B8477500A977AB,
+										A786D92805B8477500A977AB,
+										A786D92905B8477500A977AB,
+										A786D92A05B8477500A977AB,
+										A786D92B05B8477500A977AB,
+										A786D93305B8477500A977AB,
+										A786D93505B8477500A977AB,
+										A786D93605B8477500A977AB,
+										A786D93905B8477500A977AB,
+										A77A989A05D6549F00C5199B,
+										A77A98AA05D6549F00C5199B,
+										A776C3D605D75C7B0059C740,
+										A7C6E3F505E11CBD0059284A,
+										A72FBFD405E1FC7C00EA3EEF,
+										A72FBFD505E1FC7C00EA3EEF,
+										A72FBFD705E1FC7C00EA3EEF,
+										A72FBFD805E1FC7C00EA3EEF,
+										A766F13305E95162002B4DC7,
+										A766F13405E95162002B4DC7,
+										A772A97206076B4200B70FAE,
+										A79A4200061CB36F000EE89F,
+										A7374A6906592F46001FF1C2,
+										A79F3510068AAF5300485160,
+										A79F3514068AAF6F00485160,
+										A79F3518068AAF8500485160,
+										A79F351D068AAF9900485160,
+										A79F3524068AAFDC00485160,
+										A79F3530068AB03100485160,
+									);
+								};
+								SplitCount = 1;
+							};
+						};
+						PBXProjectWorkspaceModule_GeometryKey_Rev15 = {
+							PBXProjectWorkspaceModule_SGTM_Geometry = {
+								_collapsingFrameDimension = 0;
+								_indexOfCollapsedView = 0;
+								_percentageOfCollapsedView = 0;
+								sizes = (
+									"{{0, 0}, {250, 672}}",
+									"{{250, 0}, {860, 672}}",
+								);
+							};
+						};
+						PBXProjectWorkspaceModule_OldDetailFrame = "{{0, 0}, {860, 141}}";
+						PBXProjectWorkspaceModule_OldEditorFrame = "{{0, 141}, {860, 531}}";
+						PBXProjectWorkspaceModule_OldSuperviewFrame = "{{250, 0}, {860, 672}}";
+						PBXProjectWorkspaceModule_SGTM = {
+							PBXBottomSmartGroupGIDs = (
+								1C37FBAC04509CD000000102,
+								1C37FAAC04509CD000000102,
+								1C08E77C0454961000C914BD,
+								1C37FABC05509CD000000102,
+								1C37FABC05539CD112110102,
+								E2644B35053B69B200211256,
+								1C37FABC04509CD000100104,
+								1CC0EA4004350EF90044410B,
+								1CC0EA4004350EF90041110B,
+							);
+							PBXSmartGroupTreeModuleColumnData = {
+								PBXSmartGroupTreeModuleColumnWidthsKey = (
+									233,
+								);
+								PBXSmartGroupTreeModuleColumnsKey_v4 = (
+									MainColumn,
+								);
+							};
+							PBXSmartGroupTreeModuleOutlineStateKey_v7 = {
+								PBXSmartGroupTreeModuleOutlineStateExpansionKey = (
+									2A37F4AAFDCFA73011CA2CEA,
+									2A37F4ABFDCFA73011CA2CEA,
+									F5A15631036DE23101532551,
+									A7992AEE045034E20053257D,
+									A7271E6A03ED4225001A4B10,
+									1C37FBAC04509CD000000102,
+								);
+								PBXSmartGroupTreeModuleOutlineStateSelectionKey = (
+									(
+										40,
+										36,
+										5,
+										0,
+									),
+								);
+								PBXSmartGroupTreeModuleOutlineStateVisibleRectKey = "{{0, 315}, {233, 654}}";
+							};
+							PBXTopSmartGroupGIDs = (
+							);
+						};
+					};
+				},
+			);
+			"PBXWorkspaceContents:PBXConfiguration.PBXModule.PBXBatchFindModule" = {
+			};
+			"PBXWorkspaceContents:PBXConfiguration.PBXModule.PBXBuildResultsModule" = {
+			};
+			"PBXWorkspaceContents:PBXConfiguration.PBXModule.PBXClassBrowserModule" = {
+				OptionsSetName = "Hierarchy, all classes";
+			};
+			"PBXWorkspaceContents:PBXConfiguration.PBXModule.PBXDebugCLIModule" = {
+			};
+			"PBXWorkspaceContents:PBXConfiguration.PBXModule.PBXDebugSessionModule" = {
+				Debugger = {
+					HorizontalSplitView = {
+						_collapsingFrameDimension = 0;
+						_indexOfCollapsedView = 0;
+						_percentageOfCollapsedView = 0;
+						isCollapsed = yes;
+						sizes = (
+							"{{0, 0}, {384, 176}}",
+							"{{384, 0}, {361, 176}}",
+						);
+					};
+					VerticalSplitView = {
+						_collapsingFrameDimension = 0;
+						_indexOfCollapsedView = 0;
+						_percentageOfCollapsedView = 0;
+						isCollapsed = yes;
+						sizes = (
+							"{{0, 0}, {745, 176}}",
+							"{{0, 176}, {745, 246}}",
+						);
+					};
+				};
+				LauncherConfigVersion = 8;
+			};
+			"PBXWorkspaceContents:PBXConfiguration.PBXModule.PBXNavigatorGroup" = {
+				PBXSplitModuleInNavigatorKey = {
+					SplitCount = 1;
+				};
+			};
+			"PBXWorkspaceContents:PBXConfiguration.PBXModule.PBXProjectFindModule" = {
+			};
+			"PBXWorkspaceContents:PBXConfiguration.PBXModule.PBXProjectWorkspaceModule" = {
+				PBXProjectWorkspaceModule_StateKey_Rev39 = {
+					PBXProjectWorkspaceModule_DEGV_Geometry = {
+						_collapsingFrameDimension = 0;
+						_indexOfCollapsedView = 0;
+						_percentageOfCollapsedView = 0;
+						isCollapsed = yes;
+						sizes = (
+							"{{0, 0}, {860, 141}}",
+							"{{0, 141}, {860, 531}}",
+						);
+					};
+					PBXProjectWorkspaceModule_DataSourceSelectionKey_Rev6 = {
+						BoundsStr = "{{0, 0}, {845, 124}}";
+						Rows = (
+							0,
+						);
+						VisibleRectStr = "{{0, 0}, {845, 124}}";
+					};
+					PBXProjectWorkspaceModule_EditorOpen = true;
+					PBXProjectWorkspaceModule_EmbeddedNavigatorGroup = {
+						PBXSplitModuleInNavigatorKey = {
+							Split0 = {
+								bookmark = A79F351B068AAF9100485160;
+								history = (
+									A776212C059976EE008A0287,
+									A776212D059976EE008A0287,
+									A776212E059976EE008A0287,
+									A705727F05B2FB37001B9646,
+									A705728205B2FB37001B9646,
+									A705728505B2FB37001B9646,
+									A705728605B2FB37001B9646,
+									A705728705B2FB37001B9646,
+									A7B681BE05B32B6B00DC92DB,
+									A7B681C205B32B6B00DC92DB,
+									A7B681C305B32B6B00DC92DB,
+									A7B681C405B32B6B00DC92DB,
+									A7B681C505B32B6B00DC92DB,
+									A7B681CC05B32B6B00DC92DB,
+									A7B6826505B3C96600DC92DB,
+									A7B6826605B3C96600DC92DB,
+									A7B6826705B3C96600DC92DB,
+									A7B6826805B3C96600DC92DB,
+									A7B6826A05B3C96600DC92DB,
+									A7B6827105B3C96600DC92DB,
+									A7B6827205B3C96600DC92DB,
+									A7B6827305B3C96600DC92DB,
+									A7B6827405B3C96600DC92DB,
+									A7B6827505B3C96600DC92DB,
+									A7B6827605B3C96600DC92DB,
+									A7B6827705B3C96600DC92DB,
+									A7B6827805B3C96600DC92DB,
+									A763556B05B5E35B0096D9C9,
+									A763556E05B5E35B0096D9C9,
+									A763556F05B5E35B0096D9C9,
+									A763557005B5E35B0096D9C9,
+									A763557105B5E35B0096D9C9,
+									A763557305B5E35B0096D9C9,
+									A763557505B5E35B0096D9C9,
+									A763557805B5E35B0096D9C9,
+									A763557A05B5E35B0096D9C9,
+									A763557F05B5E35B0096D9C9,
+									A763558205B5E35B0096D9C9,
+									A763558605B5E35B0096D9C9,
+									A786D8DE05B8477500A977AB,
+									A786D8DF05B8477500A977AB,
+									A786D8E105B8477500A977AB,
+									A786D8E205B8477500A977AB,
+									A786D8E405B8477500A977AB,
+									A786D8E605B8477500A977AB,
+									A786D8E705B8477500A977AB,
+									A786D8F205B8477500A977AB,
+									A786D8F305B8477500A977AB,
+									A786D8F605B8477500A977AB,
+									A786D8FE05B8477500A977AB,
+									A786D8FF05B8477500A977AB,
+									A786D90005B8477500A977AB,
+									A786D95505B867C800A977AB,
+									A786D95605B867C800A977AB,
+									A786D95805B867C800A977AB,
+									A7A2EFD005BB3B2700DA2305,
+									A7A2EFD105BB3B2700DA2305,
+									A7A2EFD305BB3B2700DA2305,
+									A7462C6C05BC8AF50034C6BD,
+									A77A988505D6549F00C5199B,
+									A77A988605D6549F00C5199B,
+									A77A988B05D6549F00C5199B,
+									A77A988C05D6549F00C5199B,
+									A77A988D05D6549F00C5199B,
+									A77A988E05D6549F00C5199B,
+									A77A988F05D6549F00C5199B,
+									A77A989005D6549F00C5199B,
+									A77A989705D6549F00C5199B,
+									A77A989805D6549F00C5199B,
+									A776C2BC05D66E3F0059C740,
+									A776C2BF05D66E3F0059C740,
+									A776C3D305D75C7B0059C740,
+									A7C6E3EF05E11CBD0059284A,
+									A7C6E3F005E11CBD0059284A,
+									A7C6E3F205E11CBD0059284A,
+									A72FBFCD05E1FC7C00EA3EEF,
+									A72FBFCE05E1FC7C00EA3EEF,
+									A72FBFCF05E1FC7C00EA3EEF,
+									A72FBFD005E1FC7C00EA3EEF,
+									A72FBFD105E1FC7C00EA3EEF,
+									A72FBFD205E1FC7C00EA3EEF,
+									A72FC0BF05E1FE3900EA3EEF,
+									A766F12E05E95162002B4DC7,
+									A766F12F05E95162002B4DC7,
+									A766F13005E95162002B4DC7,
+									A766F13205E95162002B4DC7,
+									A77AF93F05F6ABEB00B618C2,
+									A77AF94305F6ABEB00B618C2,
+									A77AF94405F6ABEB00B618C2,
+									A772A96A06076B4200B70FAE,
+									A772A96E06076B4200B70FAE,
+									A74AFC750608AD3E000F59CA,
+									A74AFC760608AD3E000F59CA,
+									A728AC16061174E10060C3A5,
+									A728AC17061174E10060C3A5,
+									A79A41FF061CB36F000EE89F,
+									A79A4203061CB399000EE89F,
+									A79A4207061CB3A5000EE89F,
+									A79A4210061CB3B0000EE89F,
+									A79A4217061CB3B4000EE89F,
+									A7F73EFD0638EC3000FECCB2,
+									A7374A6206592F44001FF1C2,
+									A7374A6706592F46001FF1C2,
+									A79F350F068AAF5300485160,
+									A79F3513068AAF6F00485160,
+									A79F3517068AAF8500485160,
+									A77A988705D6549F00C5199B,
+								);
+								prevStack = (
+									A7762131059976EE008A0287,
+									A7762132059976EE008A0287,
+									A7762133059976EE008A0287,
+									A7762135059976EE008A0287,
+									A7762140059976EE008A0287,
+									A70571C805B1FD4E001B9646,
+									A705724805B27A44001B9646,
+									A705724B05B27A44001B9646,
+									A705724C05B27A44001B9646,
+									A705724E05B27A44001B9646,
+									A705729305B2FB37001B9646,
+									A705729405B2FB37001B9646,
+									A705729605B2FB37001B9646,
+									A705729905B2FB37001B9646,
+									A70572A005B2FB37001B9646,
+									A70572AB05B2FB37001B9646,
+									A70572AC05B2FB37001B9646,
+									A70572AD05B2FB37001B9646,
+									A70572AE05B2FB37001B9646,
+									A70572B805B2FB37001B9646,
+									A70572B905B2FB37001B9646,
+									A70572BA05B2FB37001B9646,
+									A7B681D105B32B6B00DC92DB,
+									A7B681D205B32B6B00DC92DB,
+									A7B681D505B32B6B00DC92DB,
+									A7B681DA05B32B6B00DC92DB,
+									A7B681DB05B32B6B00DC92DB,
+									A7B681DC05B32B6B00DC92DB,
+									A7B681DD05B32B6B00DC92DB,
+									A7B681E605B32B6B00DC92DB,
+									A7B681F805B32B7F00DC92DB,
+									A7B6828C05B3C96600DC92DB,
+									A7B6828D05B3C96600DC92DB,
+									A7B6828E05B3C96600DC92DB,
+									A7B682A005B3C96600DC92DB,
+									A7B682B805B3C96600DC92DB,
+									A7B682B905B3C96600DC92DB,
+									A7B682BA05B3C96600DC92DB,
+									A7B682BB05B3C96600DC92DB,
+									A7B682BC05B3C96600DC92DB,
+									A7B682BD05B3C96600DC92DB,
+									A7B682BE05B3C96600DC92DB,
+									A7B682BF05B3C96600DC92DB,
+									A7B682C005B3C96600DC92DB,
+									A7B682C105B3C96600DC92DB,
+									A7B682CA05B3C96600DC92DB,
+									A7B682D605B3C96600DC92DB,
+									A7B682D705B3C96600DC92DB,
+									A7B682D805B3C96600DC92DB,
+									A763558805B5E35B0096D9C9,
+									A763558905B5E35B0096D9C9,
+									A763558A05B5E35B0096D9C9,
+									A763558B05B5E35B0096D9C9,
+									A763558C05B5E35B0096D9C9,
+									A763558D05B5E35B0096D9C9,
+									A763558E05B5E35B0096D9C9,
+									A763558F05B5E35B0096D9C9,
+									A763559105B5E35B0096D9C9,
+									A763559205B5E35B0096D9C9,
+									A763559F05B5E35B0096D9C9,
+									A76355A005B5E35B0096D9C9,
+									A76355A105B5E35B0096D9C9,
+									A76355A305B5E35B0096D9C9,
+									A76355A405B5E35B0096D9C9,
+									A76355A505B5E35B0096D9C9,
+									A76355A905B5E35B0096D9C9,
+									A76355AD05B5E35B0096D9C9,
+									A76355BE05B5E35B0096D9C9,
+									A76355C005B5E35B0096D9C9,
+									A76355C105B5E35B0096D9C9,
+									A76355D905B5E35B0096D9C9,
+									A76355DA05B5E35B0096D9C9,
+									A76355DB05B5E35B0096D9C9,
+									A76355DC05B5E35B0096D9C9,
+									A76355DD05B5E35B0096D9C9,
+									A786D90F05B8477500A977AB,
+									A786D91405B8477500A977AB,
+									A786D91805B8477500A977AB,
+									A786D91905B8477500A977AB,
+									A786D91A05B8477500A977AB,
+									A786D91B05B8477500A977AB,
+									A786D92505B8477500A977AB,
+									A786D92805B8477500A977AB,
+									A786D92905B8477500A977AB,
+									A786D92A05B8477500A977AB,
+									A786D92B05B8477500A977AB,
+									A786D93305B8477500A977AB,
+									A786D93505B8477500A977AB,
+									A786D93605B8477500A977AB,
+									A786D93905B8477500A977AB,
+									A77A989A05D6549F00C5199B,
+									A77A98AA05D6549F00C5199B,
+									A776C3D605D75C7B0059C740,
+									A7C6E3F505E11CBD0059284A,
+									A72FBFD405E1FC7C00EA3EEF,
+									A72FBFD505E1FC7C00EA3EEF,
+									A72FBFD705E1FC7C00EA3EEF,
+									A72FBFD805E1FC7C00EA3EEF,
+									A766F13305E95162002B4DC7,
+									A766F13405E95162002B4DC7,
+									A772A97206076B4200B70FAE,
+									A79A4200061CB36F000EE89F,
+									A7374A6906592F46001FF1C2,
+									A79F3510068AAF5300485160,
+									A79F3514068AAF6F00485160,
+									A79F3518068AAF8500485160,
+								);
+							};
+							SplitCount = 1;
+						};
+					};
+					PBXProjectWorkspaceModule_GeometryKey_Rev15 = {
+						PBXProjectWorkspaceModule_SGTM_Geometry = {
+							_collapsingFrameDimension = 0;
+							_indexOfCollapsedView = 0;
+							_percentageOfCollapsedView = 0;
+							sizes = (
+								"{{0, 0}, {250, 672}}",
+								"{{250, 0}, {860, 672}}",
+							);
+						};
+					};
+					PBXProjectWorkspaceModule_OldDetailFrame = "{{0, 0}, {860, 141}}";
+					PBXProjectWorkspaceModule_OldEditorFrame = "{{0, 141}, {860, 531}}";
+					PBXProjectWorkspaceModule_OldSuperviewFrame = "{{250, 0}, {860, 672}}";
+					PBXProjectWorkspaceModule_SGTM = {
+						PBXBottomSmartGroupGIDs = (
+							1C37FBAC04509CD000000102,
+							1C37FAAC04509CD000000102,
+							1C08E77C0454961000C914BD,
+							1C37FABC05509CD000000102,
+							1C37FABC05539CD112110102,
+							E2644B35053B69B200211256,
+							1C37FABC04509CD000100104,
+							1CC0EA4004350EF90044410B,
+							1CC0EA4004350EF90041110B,
+						);
+						PBXSmartGroupTreeModuleColumnData = {
+							PBXSmartGroupTreeModuleColumnWidthsKey = (
+								233,
+							);
+							PBXSmartGroupTreeModuleColumnsKey_v4 = (
+								MainColumn,
+							);
+						};
+						PBXSmartGroupTreeModuleOutlineStateKey_v7 = {
+							PBXSmartGroupTreeModuleOutlineStateExpansionKey = (
+								2A37F4AAFDCFA73011CA2CEA,
+								2A37F4ABFDCFA73011CA2CEA,
+								A7992AEE045034E20053257D,
+								1C37FBAC04509CD000000102,
+							);
+							PBXSmartGroupTreeModuleOutlineStateSelectionKey = (
+								(
+									19,
+									12,
+									5,
+									0,
+								),
+							);
+							PBXSmartGroupTreeModuleOutlineStateVisibleRectKey = "{{0, 0}, {233, 654}}";
+						};
+						PBXTopSmartGroupGIDs = (
+						);
+					};
+				};
+			};
+			"PBXWorkspaceContents:PBXConfiguration.PBXModule.PBXRunSessionModule" = {
+				LauncherConfigVersion = 3;
+				Runner = {
+					HorizontalSplitView = {
+						_collapsingFrameDimension = 0;
+						_indexOfCollapsedView = 0;
+						_percentageOfCollapsedView = 0;
+						isCollapsed = yes;
+						sizes = (
+							"{{0, 0}, {493, 167}}",
+							"{{0, 176}, {493, 267}}",
+						);
+					};
+					VerticalSplitView = {
+						_collapsingFrameDimension = 0;
+						_indexOfCollapsedView = 0;
+						_percentageOfCollapsedView = 0;
+						isCollapsed = yes;
+						sizes = (
+							"{{0, 0}, {405, 443}}",
+							"{{414, 0}, {514, 443}}",
+						);
+					};
+				};
+			};
+			PBXWorkspaceGeometries = (
+				{
+					Frame = "{{0, 0}, {1110, 672}}";
+					PBXProjectWorkspaceModule_GeometryKey_Rev15 = {
+						PBXProjectWorkspaceModule_RunWindowVisible = true;
+					};
+					RubberWindowFrame = "42 32 1110 714 0 0 1152 746 ";
+				},
+			);
+			"PBXWorkspaceGeometries:PBXConfiguration.PBXModule.PBXBatchFindModule" = {
+				Frame = "{{0, 0}, {543, 158}}";
+				WindowFrame = "{{324, 566}, {543, 158}}";
+			};
+			"PBXWorkspaceGeometries:PBXConfiguration.PBXModule.PBXBuildResultsModule" = {
+				Frame = "{{0, 0}, {480, 217}}";
+				PBXModuleWindowStatusBarHidden = YES;
+				RubberWindowFrame = "353 406 480 238 0 0 1152 746 ";
+			};
+			"PBXWorkspaceGeometries:PBXConfiguration.PBXModule.PBXClassBrowserModule" = {
+				ClassesFrame = "{{0, 0}, {408, 92}}";
+				ClassesTreeTableConfiguration = (
+					PBXClassNameColumnIdentifier,
+					208,
+					PBXClassBookColumnIdentifier,
+					22,
+				);
+				Frame = "{{0, 0}, {655, 496}}";
+				MembersFrame = "{{0, 92}, {408, 384}}";
+				MembersTreeTableConfiguration = (
+					PBXMemberTypeIconColumnIdentifier,
+					22,
+					PBXMemberNameColumnIdentifier,
+					216,
+					PBXMemberTypeColumnIdentifier,
+					133,
+					PBXMemberBookColumnIdentifier,
+					22,
+				);
+				WindowFrame = "{{266, 162}, {655, 574}}";
+			};
+			"PBXWorkspaceGeometries:PBXConfiguration.PBXModule.PBXDebugCLIModule" = {
+				Frame = "{{0, 0}, {400, 201}}";
+				PBXModuleWindowStatusBarHidden = YES;
+				RubberWindowFrame = "50 718 400 222 0 0 1152 746 ";
+			};
+			"PBXWorkspaceGeometries:PBXConfiguration.PBXModule.PBXDebugSessionModule" = {
+				DebugConsoleDrawerSize = "{100, 120}";
+				DebugConsoleVisible = Drawer;
+				DebugConsoleWindowFrame = "{{200, 200}, {500, 300}}";
+				DebugSTDIOWindowFrame = "{{200, 200}, {500, 300}}";
+				Frame = "{{0, 0}, {745, 422}}";
+				RubberWindowFrame = "321 242 745 464 0 0 1152 746 ";
+			};
+			"PBXWorkspaceGeometries:PBXConfiguration.PBXModule.PBXNavigatorGroup" = {
+				Frame = "{{0, 0}, {750, 481}}";
+				PBXModuleWindowStatusBarHidden = YES;
+				RubberWindowFrame = "50 239 750 502 0 0 1152 746 ";
+			};
+			"PBXWorkspaceGeometries:PBXConfiguration.PBXModule.PBXProjectFindModule" = {
+				Frame = "{{0, 0}, {645, 579}}";
+				RubberWindowFrame = "357 65 645 621 0 0 1152 746 ";
+			};
+			"PBXWorkspaceGeometries:PBXConfiguration.PBXModule.PBXProjectWorkspaceModule" = {
+				Frame = "{{0, 0}, {1110, 672}}";
+				PBXProjectWorkspaceModule_GeometryKey_Rev15 = {
+					PBXProjectWorkspaceModule_RunWindowVisible = true;
+				};
+				RubberWindowFrame = "42 32 1110 714 0 0 1152 746 ";
+			};
+			"PBXWorkspaceGeometries:PBXConfiguration.PBXModule.PBXRunSessionModule" = {
+				Frame = "{{0, 0}, {696, 258}}";
+				PBXModuleWindowStatusBarHidden = YES;
+				RubberWindowFrame = "99 445 696 279 0 0 1152 746 ";
+			};
+			PBXWorkspaceStateSaveDate = 281737468;
+		};
+		perUserProjectItems = {
+			A71649FA1056F7D80033173D /* PBXTextBookmark */ = A71649FA1056F7D80033173D /* PBXTextBookmark */;
+			A7164A1D1056FE530033173D /* PBXTextBookmark */ = A7164A1D1056FE530033173D /* PBXTextBookmark */;
+			A7164A7B105702620033173D /* PBXTextBookmark */ = A7164A7B105702620033173D /* PBXTextBookmark */;
+			A7164A7C105702620033173D /* PBXTextBookmark */ = A7164A7C105702620033173D /* PBXTextBookmark */;
+			A7164A7D105702620033173D /* PBXTextBookmark */ = A7164A7D105702620033173D /* PBXTextBookmark */;
+			A7164ADE105737FB0033173D /* PBXTextBookmark */ = A7164ADE105737FB0033173D /* PBXTextBookmark */;
+			A7164AF61057387E0033173D /* PBXTextBookmark */ = A7164AF61057387E0033173D /* PBXTextBookmark */;
+			A7164B15105738E40033173D /* PBXTextBookmark */ = A7164B15105738E40033173D /* PBXTextBookmark */;
+			A732C77C107C5E55002E3280 /* PBXTextBookmark */ = A732C77C107C5E55002E3280 /* PBXTextBookmark */;
+		};
+		sourceControlManager = A775D5A30585B305009FBE8B /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2A37F4ACFDCFA73011CA2CEA /* AudioDocument.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1750}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	2A37F4AEFDCFA73011CA2CEA /* AudioDocument.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	2A37F4B0FDCFA73011CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	2A37F4BAFDCFA73011CA2CEA /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 754}}";
+			sepNavSelRange = "{50, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 754}}";
+		};
+	};
+	A704A9A40445F4960067A5E9 /* AudioTypes.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1473, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A708CE9E0AD8375C0070C1B0 /* ToDo.txt */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1511, 979}}";
+			sepNavSelRange = "{150, 0}";
+			sepNavVisRange = "{0, 150}";
+			sepNavVisRect = "{{0, 0}, {1389, 739}}";
+		};
+	};
+	A71649FA1056F7D80033173D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A727C36407139CCD00CA2C30 /* CAPlaythruDevice.m */;
+		name = "CAPlaythruDevice.m: 112";
+		rLen = 10;
+		rLoc = 3432;
+		rType = 0;
+		vrLen = 1828;
+		vrLoc = 2028;
+	};
+	A7164A1D1056FE530033173D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A7271E6C03ED4494001A4B10 /* AudioRecorder.m */;
+		name = "AudioRecorder.m: 105";
+		rLen = 0;
+		rLoc = 3640;
+		rType = 0;
+		vrLen = 2187;
+		vrLoc = 2237;
+	};
+	A7164A7B105702620033173D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A727C36607139CCD00CA2C30 /* CARingBuffer.m */;
+		name = "CARingBuffer.m: 157";
+		rLen = 0;
+		rLoc = 4487;
+		rType = 0;
+		vrLen = 1639;
+		vrLoc = 3109;
+	};
+	A7164A7C105702620033173D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F531043203CD68FB017CFB76 /* AudioDataSono.m */;
+		name = "AudioDataSono.m: 280";
+		rLen = 0;
+		rLoc = 9825;
+		rType = 0;
+		vrLen = 2033;
+		vrLoc = 8800;
+	};
+	A7164A7D105702620033173D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F58F62B0035F3A81018C2097 /* AudioApp.m */;
+		name = "AudioApp.m: 166";
+		rLen = 0;
+		rLoc = 5853;
+		rType = 0;
+		vrLen = 2125;
+		vrLoc = 4689;
+	};
+	A7164ADE105737FB0033173D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A79AEE2A047E4B16004200DF /* AudioView+Rectangles.m */;
+		name = "AudioView+Rectangles.m: 158";
+		rLen = 0;
+		rLoc = 4318;
+		rType = 0;
+		vrLen = 2138;
+		vrLoc = 3783;
+	};
+	A7164AF61057387E0033173D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A708CE9E0AD8375C0070C1B0 /* ToDo.txt */;
+		name = "ToDo.txt: 3";
+		rLen = 0;
+		rLoc = 150;
+		rType = 0;
+		vrLen = 150;
+		vrLoc = 0;
+	};
+	A7164AF81057387E0033173D /* UpdateInfo.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = UpdateInfo.plist;
+		path = /Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Updates/UpdateInfo.plist;
+		sourceTree = "<absolute>";
+	};
+	A7164B15105738E40033173D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A7164AF81057387E0033173D /* UpdateInfo.plist */;
+		name = 1.3;
+		rLen = 3;
+		rLoc = 308;
+		rType = 0;
+		vrLen = 360;
+		vrLoc = 0;
+	};
+	A7271E6B03ED4494001A4B10 /* AudioRecorder.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1134}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+			sepNavWindowFrame = "{{82, 118}, {902, 688}}";
+		};
+	};
+	A7271E6C03ED4494001A4B10 /* AudioRecorder.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{9057, 129}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 9375}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1511, 4121}}";
+			sepNavSelRange = "{3640, 0}";
+			sepNavVisRange = "{2237, 2187}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+			sepNavWindowFrame = "{{1345, 208}, {750, 558}}";
+		};
+	};
+	A7271E7C03ED52FC001A4B10 /* AudioDialogPrefs.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {812, 3556}}";
+			sepNavSelRange = "{4176, 11}";
+			sepNavVisRect = "{{0, 1436}, {746, 754}}";
+		};
+	};
+	A7271E7D03ED52FC001A4B10 /* AudioDialogPrefs.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1199, 11200}}";
+			sepNavSelRange = "{8626, 0}";
+			sepNavVisRect = "{{0, 2779}, {1199, 390}}";
+		};
+	};
+	A7271E9303EE533D001A4B10 /* AudioRTWindowController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1274}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7271E9403EE533D001A4B10 /* AudioRTWindowController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1185, 8330}}";
+			sepNavSelRange = "{10732, 69}";
+			sepNavVisRect = "{{0, 1939}, {1185, 616}}";
+		};
+	};
+	A7271E9B03EE573D001A4B10 /* AudioRTDisplayer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 3332}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7271E9C03EE573D001A4B10 /* AudioRTDisplayer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1199, 15316}}";
+			sepNavSelRange = "{26200, 0}";
+			sepNavVisRect = "{{0, 14358}, {1199, 390}}";
+			sepNavWindowFrame = "{{1325, 149}, {750, 558}}";
+		};
+	};
+	A7271EF703F17385001A4B10 /* AudioViewAppearanceController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1092}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7271EF803F17385001A4B10 /* AudioViewAppearanceController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1385, 6110}}";
+			sepNavSelRange = "{8974, 0}";
+			sepNavVisRange = "{8027, 2358}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A727C35207139CCD00CA2C30 /* AXAUComponent.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1385, 975}}";
+			sepNavSelRange = "{1618, 0}";
+			sepNavVisRange = "{1405, 841}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A727C35307139CCD00CA2C30 /* AXAUComponent.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1385, 6747}}";
+			sepNavSelRange = "{11432, 35}";
+			sepNavVisRange = "{10960, 961}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A727C35407139CCD00CA2C30 /* AXAUManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A727C35507139CCD00CA2C30 /* AXAUManager.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 2086}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A727C35607139CCD00CA2C30 /* CAChannelMixer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1078}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+			sepNavWindowFrame = "{{1659, -114}, {750, 558}}";
+		};
+	};
+	A727C35707139CCD00CA2C30 /* CAChannelMixer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1511, 3718}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2388}";
+			sepNavVisRect = "{{0, 3416}, {1199, 390}}";
+		};
+	};
+	A727C35807139CCD00CA2C30 /* CAChannelMixerArray.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A727C35907139CCD00CA2C30 /* CAChannelMixerArray.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1316}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A727C35A07139CCD00CA2C30 /* CAClientObject.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A727C35B07139CCD00CA2C30 /* CAClientObject.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 2478}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A727C35C07139CCD00CA2C30 /* CAConstants.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A727C35D07139CCD00CA2C30 /* CADataSourceObject.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A727C35E07139CCD00CA2C30 /* CADataSourceObject.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1111, 1924}}";
+			sepNavSelRange = "{2340, 0}";
+			sepNavVisRange = "{1262, 1816}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+			sepNavWindowFrame = "{{-1642, 205}, {1118, 969}}";
+		};
+	};
+	A727C35F07139CCD00CA2C30 /* CADeviceManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1460, 1820}}";
+			sepNavSelRange = "{2963, 0}";
+			sepNavVisRect = "{{0, 809}, {1460, 619}}";
+		};
+	};
+	A727C36007139CCD00CA2C30 /* CADeviceManager.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1385, 8671}}";
+			sepNavSelRange = "{2902, 0}";
+			sepNavVisRange = "{2419, 609}";
+			sepNavVisRect = "{{0, 1954}, {746, 754}}";
+		};
+	};
+	A727C36107139CCD00CA2C30 /* CADeviceObject.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1680}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A727C36207139CCD00CA2C30 /* CADeviceObject.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1460, 6748}}";
+			sepNavSelRange = "{9207, 17}";
+			sepNavVisRect = "{{0, 3996}, {1460, 619}}";
+		};
+	};
+	A727C36307139CCD00CA2C30 /* CAPlaythruDevice.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+			sepNavWindowFrame = "{{1467, -77}, {750, 558}}";
+		};
+	};
+	A727C36407139CCD00CA2C30 /* CAPlaythruDevice.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1511, 1768}}";
+			sepNavSelRange = "{3432, 10}";
+			sepNavVisRange = "{2028, 1828}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A727C36507139CCD00CA2C30 /* CARingBuffer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1191, 676}}";
+			sepNavSelRange = "{1574, 42}";
+			sepNavVisRange = "{228, 1547}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A727C36607139CCD00CA2C30 /* CARingBuffer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1191, 2288}}";
+			sepNavSelRange = "{3210, 0}";
+			sepNavVisRange = "{2141, 424}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A727C36707139CCD00CA2C30 /* CAStreamObject.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A727C36807139CCD00CA2C30 /* CAStreamObject.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1460, 4186}}";
+			sepNavSelRange = "{4122, 49}";
+			sepNavVisRect = "{{0, 1714}, {1460, 619}}";
+		};
+	};
+	A732C77C107C5E55002E3280 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A77C653004AD255E00D20E25 /* AudioFileImporter.m */;
+		name = "AudioFileImporter.m: 76";
+		rLen = 0;
+		rLoc = 2296;
+		rType = 0;
+		vrLen = 1219;
+		vrLoc = 1926;
+	};
+	A74DFB040418A83A005326DA /* AudioDialogOperations.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A74DFB050418A83A005326DA /* AudioDialogOperations.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1718, 1988}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A75128320409629600FEC91A /* AudioDialogHelp.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A75128330409629600FEC91A /* AudioDialogHelp.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1385, 1378}}";
+			sepNavSelRange = "{3379, 0}";
+			sepNavVisRange = "{2221, 1292}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A752D01A0AD5FA0E00706428 /* NSAssert() */ = {
+		isa = PBXSymbolicBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 1;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		hitCount = 0;
+		ignoreCount = 0;
+		location = "";
+		modificationTime = 274134997.861065;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+		symbolName = "NSAssert()";
+	};
+	A752D0290AD5FAC600706428 /* [NSInternalInconsistencyException raise] */ = {
+		isa = PBXSymbolicBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 1;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		hitCount = 0;
+		ignoreCount = 0;
+		location = "";
+		modificationTime = 274133027.916888;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+		symbolName = "[NSInternalInconsistencyException raise]";
+	};
+	A76355F305B669150096D9C9 /* AudioDataUndo.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A76355F405B669150096D9C9 /* AudioDataUndo.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1680}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A76E95A309202BD500005632 /* AXPlugInHeader.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {892, 952}}";
+			sepNavSelRange = "{634, 0}";
+			sepNavVisRect = "{{0, 0}, {892, 724}}";
+		};
+	};
+	A775D5A30585B305009FBE8B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 1;
+		scmConfiguration = {
+			perforceClient = "jean-as.desktop";
+			perforceDepot = "80.83.54.36:1767";
+			perforcePassword = garfield;
+			perforceToolPath = /usr/bin/p4;
+			perforceUserName = jean;
+			repositoryNamesForRoots = {
+				"" = perforce;
+			};
+		};
+		scmType = scm.perforce;
+	};
+	A775D5A40585B305009FBE8B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	A779EEB404832F4200A83ACA /* AudioSplitView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A779EEB504832F4200A83ACA /* AudioSplitView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A77C652F04AD255E00D20E25 /* AudioFileImporter.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A77C653004AD255E00D20E25 /* AudioFileImporter.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1511, 4472}}";
+			sepNavSelRange = "{2296, 0}";
+			sepNavVisRange = "{1926, 1219}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+			sepNavWindowFrame = "{{50, 183}, {750, 558}}";
+		};
+	};
+	A77C653504AD25B700D20E25 /* ARFileUtilities.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A77C653604AD25B700D20E25 /* ARFileUtilities.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1191, 962}}";
+			sepNavSelRange = "{1632, 0}";
+			sepNavVisRange = "{871, 1625}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A780337204601B5B00DA5BB0 /* AudioPrinter.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A780337304601B5B00DA5BB0 /* AudioPrinter.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1526}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7822EB0048631C7007635FB /* ARDynamicMenu.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7822EB1048631C7007635FB /* ARDynamicMenu.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 2856}}";
+			sepNavSelRange = "{1049, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A782622DC5B037F000FFC036 /* AudioDialogDisplayChannelOptions.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A782622EC5B037F000FFC036 /* AudioDialogDisplayChannelOptions.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1526}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7852B5F03F4099D00532701 /* AIFFCodec.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1202, 1053}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1775, 1125}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7852B6003F4099D00532701 /* AIFFCodec.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1385, 6032}}";
+			sepNavSelRange = "{7260, 0}";
+			sepNavVisRange = "{6511, 1259}";
+			sepNavVisRect = "{{0, 2550}, {1389, 739}}";
+		};
+	};
+	A787B53D0488889900532444 /* ARNetwork.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A787B53E0488889900532444 /* ARNetwork.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1385, 1170}}";
+			sepNavSelRange = "{2683, 0}";
+			sepNavVisRange = "{1818, 1055}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+			sepNavWindowFrame = "{{-1665, 226}, {1118, 969}}";
+		};
+	};
+	A787BC820488EA2D00532444 /* AudioView+Printing.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A787BC830488EA2D00532444 /* AudioView+Printing.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A787BC860488F27E00532444 /* AudioPrinterView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A787BC870488F27E00532444 /* AudioPrinterView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 2310}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7891FA11056250300CA3458 /* _NSLockError */ = {
+		isa = PBXSymbolicBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 1;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		hitCount = 0;
+		ignoreCount = 0;
+		location = Foundation;
+		modificationTime = 274133016.892929;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+		symbolName = _NSLockError;
+	};
+	A78F5A37042473610053251F /* AudioViewEmpty.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A78F5A38042473610053251F /* AudioViewEmpty.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1385, 1482}}";
+			sepNavSelRange = "{2805, 0}";
+			sepNavVisRange = "{2045, 1449}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A790C765045587400053257D /* AudioDataTrigger.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1092}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A790C766045587400053257D /* AudioDataTrigger.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 4130}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7920470042EF3F500000202 /* AudioFullScreenWindow.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7920471042EF3F500000202 /* AudioFullScreenWindow.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A792D05B046234F70053266E /* AudioInspectorWindow.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A792D05C046234F70053266E /* AudioInspectorWindow.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A792D06204626F990053266E /* AIFFProtocol.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1473, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A792D067046295110053266E /* AudioAppearanceTableColumn.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A792D068046295110053266E /* AudioAppearanceTableColumn.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1385, 1170}}";
+			sepNavSelRange = "{2464, 0}";
+			sepNavVisRange = "{1669, 1049}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A792D06C0462AD620053266E /* AudioColorCell.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A792D06D0462AD620053266E /* AudioColorCell.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A798262404694C9C0053249A /* AudioSonoAppearanceController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A798262504694C9C0053249A /* AudioSonoAppearanceController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 2114}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7982646046B81FF0053249A /* AudioTipsPanel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7982647046B81FF0053249A /* AudioTipsPanel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 2044}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7982650046B9C080053249A /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {962, 442}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {832, 442}}";
+		};
+	};
+	A7982654046B9C160053249A /* French */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1448, 719}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {920, 719}}";
+		};
+	};
+	A79829E2046BF0D60053249A /* AudioPlugInsController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1078}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79829E3046BF0D60053249A /* AudioPlugInsController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1385, 4589}}";
+			sepNavSelRange = "{10407, 0}";
+			sepNavVisRange = "{9651, 1341}";
+			sepNavVisRect = "{{0, 4208}, {1199, 390}}";
+		};
+	};
+	A79829E6046BF6290053249A /* AudioPlugInItem.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79829E7046BF6290053249A /* AudioPlugInItem.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 2562}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79829EC046BFA9F0053249A /* AudioPlugInParameter.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79829ED046BFA9F0053249A /* AudioPlugInParameter.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1680}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7992AF004507CE60053257D /* AudioRTOp.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1624}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7992AF104507CE60053257D /* AudioRTOp.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 4830}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79977B4040BF536005326DA /* AudioNotifications.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1473, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79977BE040CA69A005326DA /* AudioProtocols.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1204}}";
+			sepNavSelRange = "{1473, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79977DE040D6126005326DA /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {950, 905}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {950, 905}}";
+			sepNavWindowFrame = "{{56, 195}, {989, 978}}";
+		};
+	};
+	A7997B79040E50BE005326DA /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 754}}";
+			sepNavSelRange = "{413, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 754}}";
+		};
+	};
+	A7997B7A040E50BE005326DA /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 754}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 754}}";
+		};
+	};
+	A7997B7B040E50BE005326DA /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 826}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 754}}";
+		};
+	};
+	A7997B7C040E50BE005326DA /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 754}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 754}}";
+		};
+	};
+	A7997B7D040E50BE005326DA /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1078}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 754}}";
+		};
+	};
+	A7997B7E040E50BE005326DA /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1199, 3010}}";
+			sepNavSelRange = "{19, 5}";
+			sepNavVisRect = "{{0, 0}, {1199, 506}}";
+			sepNavWindowFrame = "{{79, 174}, {989, 978}}";
+		};
+	};
+	A7997B91040E569B005326DA /* AudioDocumentModel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7997B92040E569B005326DA /* AudioDocumentModel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1400}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7997EE8040F3689005326DA /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2180, 2856}}";
+			sepNavSelRange = "{1030, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 739}}";
+		};
+	};
+	A7997EEC040F36F1005326DA /* French */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2378, 2869}}";
+			sepNavSelRange = "{9042, 0}";
+			sepNavVisRect = "{{0, 2575}, {920, 294}}";
+		};
+	};
+	A7997EFF040FBDCE005326DA /* French */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 754}}";
+			sepNavSelRange = "{435, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 754}}";
+		};
+	};
+	A7997F00040FBF5E005326DA /* French */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {825, 1218}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {825, 596}}";
+		};
+	};
+	A7997F0904100B93005326DA /* French */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 2716}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 754}}";
+		};
+	};
+	A79AEDED047C2AA0004200DF /* AudioViewAppearanceConstants.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79AEE18047E4796004200DF /* AudioView+Events.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79AEE19047E4796004200DF /* AudioView+Events.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1385, 9295}}";
+			sepNavSelRange = "{21725, 0}";
+			sepNavVisRange = "{20312, 1950}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79AEE1D047E4AA4004200DF /* AudioView+Features.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 2030}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79AEE1E047E4AA4004200DF /* AudioView+Features.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1511, 7434}}";
+			sepNavSelRange = "{12238, 24}";
+			sepNavVisRange = "{11295, 1503}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79AEE21047E4B00004200DF /* AudioView+Responders.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79AEE22047E4B00004200DF /* AudioView+Responders.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79AEE25047E4B0E004200DF /* AudioView+Conversion.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79AEE26047E4B0E004200DF /* AudioView+Conversion.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 2156}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79AEE29047E4B16004200DF /* AudioView+Rectangles.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79AEE2A047E4B16004200DF /* AudioView+Rectangles.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1511, 2782}}";
+			sepNavSelRange = "{4318, 0}";
+			sepNavVisRange = "{3783, 2138}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79AEE2D047E4B1E004200DF /* AudioView+Display.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79AEE2E047E4B1E004200DF /* AudioView+Display.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1511, 8624}}";
+			sepNavSelRange = "{9734, 0}";
+			sepNavVisRange = "{9373, 2714}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79AEE31047E4B25004200DF /* AudioView+Range.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1092}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79AEE32047E4B25004200DF /* AudioView+Range.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 4886}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79AEE35047E4B2D004200DF /* AudioView+Notifications.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79AEE36047E4B2D004200DF /* AudioView+Notifications.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1722}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79AEE39047E4B33004200DF /* AudioView+Images.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79AEE3A047E4B33004200DF /* AudioView+Images.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 2464}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79AEE3D047E4B3D004200DF /* AudioView+DragAndDrop.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79AEE3E047E4B3D004200DF /* AudioView+DragAndDrop.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 2324}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79AEE41047E4B49004200DF /* AudioView+Playback.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79AEE42047E4B49004200DF /* AudioView+Playback.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1302}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79AEE45047E4B51004200DF /* AudioView+SubclassOnly.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79AEE46047E4B51004200DF /* AudioView+SubclassOnly.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A79AEE49047E4E03004200DF /* AudioView+Categories.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1473, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7A30C07042D9F4400F99847 /* French */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 2478}}";
+			sepNavSelRange = "{33, 0}";
+			sepNavVisRect = "{{0, 1394}, {1389, 1084}}";
+		};
+	};
+	A7A782B304133973005326DA /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1519, 3038}}";
+			sepNavSelRange = "{1, 73}";
+			sepNavVisRect = "{{0, 0}, {1519, 679}}";
+		};
+	};
+	A7A782B60413BBC5005326DA /* AudioDialogFFTParameters.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7A782B70413BBC5005326DA /* AudioDialogFFTParameters.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 2338}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7A782BA0413BD2C005326DA /* AudioDialogSonoParameters.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7A782BB0413BD2C005326DA /* AudioDialogSonoParameters.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 2114}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7AEFE72058B3B7400433A3B /* Italian */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2180, 2772}}";
+			sepNavSelRange = "{8430, 0}";
+			sepNavVisRect = "{{0, 1886}, {825, 625}}";
+		};
+	};
+	A7AEFE73058B3BAA00433A3B /* Italian */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {950, 719}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {920, 719}}";
+		};
+	};
+	A7AEFF2D058B3E3A00433A3B /* Italian */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 754}}";
+			sepNavSelRange = "{397, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 754}}";
+		};
+	};
+	A7AEFF2F058B3E4800433A3B /* Italian */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {830, 457}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {830, 457}}";
+		};
+	};
+	A7AEFF32058B3E5900433A3B /* Italian */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 2464}}";
+			sepNavSelRange = "{1, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 754}}";
+		};
+	};
+	A7AEFF33058B3E6200433A3B /* Italian */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {832, 442}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {832, 442}}";
+		};
+	};
+	A7AEFF37058B3EAD00433A3B /* Italian */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 2422}}";
+			sepNavSelRange = "{84, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1084}}";
+		};
+	};
+	A7AF0B4504064BE600FEC91A /* AudioInspectorST.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 2772}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7AF0B4604064BE600FEC91A /* AudioInspectorST.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1385, 7943}}";
+			sepNavSelRange = "{12074, 0}";
+			sepNavVisRange = "{11756, 1041}";
+			sepNavVisRect = "{{0, 7582}, {1199, 390}}";
+		};
+	};
+	A7AF0B4904064F8A00FEC91A /* AudioInspectorRT.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 2422}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7AF0B4A04064F8A00FEC91A /* AudioInspectorRT.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1199, 8876}}";
+			sepNavSelRange = "{19975, 24}";
+			sepNavVisRect = "{{0, 8072}, {1199, 390}}";
+		};
+	};
+	A7AF162F0408DB3600FEC91A /* AudioRTInfo.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7AF16300408DB3600FEC91A /* AudioRTInfo.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 2240}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7B02E6504103CE2005326DA /* AudioVersions.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1, 1440}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7B8FCD404AA599E00A8021B /* ARProgressPanel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7B8FCD504AA599E00A8021B /* ARProgressPanel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1385, 1547}}";
+			sepNavSelRange = "{2942, 0}";
+			sepNavVisRange = "{2184, 1031}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7C6E2DA05E1171A0059284A /* AudioXplorer */ = {
+		activeExec = 0;
+		executables = (
+			A7C6E3CD05E1171B0059284A /* AudioXplorer */,
+		);
+	};
+	A7C6E3CB05E1171B0059284A /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1199, 756}}";
+			sepNavSelRange = "{869, 0}";
+			sepNavVisRect = "{{0, 278}, {1199, 298}}";
+		};
+	};
+	A7C6E3CD05E1171B0059284A /* AudioXplorer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 0;
+		breakpointsEnabled = 0;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				displayName = "Executable Runner";
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+			"PBXLSLaunchAction-1" = {
+				PBXLSLaunchAction = 1;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXGDB_LaunchConfig;
+				displayName = GDB;
+				identifier = com.apple.Xcode.launch.GDBMI_Config;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = AudioXplorer;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eax = 1;
+			$ebp = 1;
+			$ebx = 1;
+			$ecx = 1;
+			$edi = 1;
+			$edx = 1;
+			$eflags = 1;
+			$eip = 1;
+			$es = 1;
+			$esi = 1;
+			$esp = 1;
+			$gs = 1;
+			$ss = 1;
+		};
+	};
+	A7C8D7E9045E55210053267D /* AudioExchange.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1274}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7C8D7EA045E55210053267D /* AudioExchange.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1573, 4030}}";
+			sepNavSelRange = "{10957, 0}";
+			sepNavVisRange = "{9328, 1636}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7CB0CC1071CEA7300FE693E /* AudioDialogPrefs+Toolbar.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7CB0CC2071CEA7300FE693E /* AudioDialogPrefs+Toolbar.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1385, 3185}}";
+			sepNavSelRange = "{2570, 0}";
+			sepNavVisRange = "{1981, 1402}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7DA74C7047A0644005327CD /* AudioEffectController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7DA74C8047A0644005327CD /* AudioEffectController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1199, 3752}}";
+			sepNavSelRange = "{5755, 0}";
+			sepNavVisRect = "{{0, 2136}, {1199, 390}}";
+		};
+	};
+	A7E9B279050EF1E900A28E5E /* AudioSynth.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7E9B27A050EF1E900A28E5E /* AudioSynth.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 2716}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7EF0A3903FCD7E900532701 /* AIFFChunk.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1191, 1066}}";
+			sepNavSelRange = "{2231, 0}";
+			sepNavVisRange = "{1796, 1217}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7EF0A3A03FCD7E900532701 /* AIFFChunk.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1385, 4732}}";
+			sepNavSelRange = "{7120, 0}";
+			sepNavVisRange = "{6499, 660}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7F058DB03FD4A7B00FEC91A /* AudioUtilities.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	A7F058DC03FD4A7B00FEC91A /* AudioUtilities.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1191, 2145}}";
+			sepNavSelRange = "{2885, 6}";
+			sepNavVisRange = "{2402, 606}";
+			sepNavVisRect = "{{0, 1}, {1389, 1069}}";
+		};
+	};
+	F531041B03C9E551017CFB76 /* AudioDataWrapper.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 3948}}";
+			sepNavSelRange = "{1473, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	F531041C03C9E551017CFB76 /* AudioDataWrapper.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1385, 14417}}";
+			sepNavSelRange = "{2502, 0}";
+			sepNavVisRange = "{1953, 1397}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	F531043103CD68FB017CFB76 /* AudioDataSono.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 2408}}";
+			sepNavSelRange = "{1473, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	F531043203CD68FB017CFB76 /* AudioDataSono.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1385, 12844}}";
+			sepNavSelRange = "{18080, 0}";
+			sepNavVisRange = "{16443, 1387}";
+			sepNavVisRect = "{{0, 12488}, {1199, 462}}";
+			sepNavWindowFrame = "{{50, 183}, {750, 558}}";
+		};
+	};
+	F54265E003743D1101E81909 /* AudioOperator.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1120}}";
+			sepNavSelRange = "{1473, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	F54265E103743D1101E81909 /* AudioOperator.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1385, 5057}}";
+			sepNavSelRange = "{8982, 0}";
+			sepNavVisRange = "{6848, 2072}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	F54266050376EA7601E81909 /* AudioDialogRecord.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1246}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+			sepNavWindowFrame = "{{59, 269}, {750, 558}}";
+		};
+	};
+	F54266060376EA7601E81909 /* AudioDialogRecord.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 3682}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+			sepNavWindowFrame = "{{1346, -77}, {790, 739}}";
+		};
+	};
+	F549E21203BB1724015325D8 /* AudioPlayer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	F549E21303BB1724015325D8 /* AudioPlayer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1191, 2899}}";
+			sepNavSelRange = "{2727, 6}";
+			sepNavVisRange = "{2308, 871}";
+			sepNavVisRect = "{{0, 2621}, {746, 753}}";
+		};
+	};
+	F56A190B03C073D201EBA97F /* AudioDataStruct.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1473, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	F56A190D03C0794B01EBA97F /* AudioDataFFT.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1260}}";
+			sepNavSelRange = "{1473, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	F56A190E03C0794B01EBA97F /* AudioDataFFT.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1385, 6799}}";
+			sepNavSelRange = "{14505, 0}";
+			sepNavVisRange = "{13004, 1512}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	F574F21C03BCA35E01CAF4CF /* AudioDialogGenerator.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	F574F21D03BCA35E01CAF4CF /* AudioDialogGenerator.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 2996}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	F58F6253035E903D018C2097 /* AudioSTWindowController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 3682}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 1}, {1389, 1069}}";
+		};
+	};
+	F58F6254035E903D018C2097 /* AudioSTWindowController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1385, 25129}}";
+			sepNavSelRange = "{25837, 0}";
+			sepNavVisRange = "{25056, 1272}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+			sepNavWindowFrame = "{{119, 120}, {750, 558}}";
+		};
+	};
+	F58F6257035E90FE018C2097 /* AudioDataAmplitude.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 2086}}";
+			sepNavSelRange = "{1473, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	F58F6258035E90FE018C2097 /* AudioDataAmplitude.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1511, 13572}}";
+			sepNavSelRange = "{30511, 0}";
+			sepNavVisRange = "{27809, 2734}";
+			sepNavVisRect = "{{0, 8086}, {1199, 390}}";
+		};
+	};
+	F58F625B035E90FE018C2097 /* AudioOpFFT.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1473, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	F58F625C035E90FE018C2097 /* AudioOpFFT.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1384, 2340}}";
+			sepNavSelRange = "{3500, 0}";
+			sepNavVisRange = "{3101, 703}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	F58F625D035E90FE018C2097 /* AudioOpSono.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1473, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	F58F625E035E90FE018C2097 /* AudioOpSono.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1191, 3276}}";
+			sepNavSelRange = "{8289, 6}";
+			sepNavVisRange = "{7825, 823}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	F58F625F035E90FE018C2097 /* AudioConstants.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1470}}";
+			sepNavSelRange = "{1473, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	F58F6260035E90FE018C2097 /* AudioView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 2142}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	F58F6261035E90FE018C2097 /* AudioView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 3808}}";
+			sepNavSelRange = "{1473, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	F58F629A035E9305018C2097 /* AudioInspectorController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	F58F629B035E9305018C2097 /* AudioInspectorController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 3472}}";
+			sepNavSelRange = "{1473, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	F58F62AF035F3A81018C2097 /* AudioApp.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1364, 1050}}";
+			sepNavSelRange = "{1706, 12}";
+			sepNavVisRect = "{{0, 0}, {1364, 847}}";
+		};
+	};
+	F58F62B0035F3A81018C2097 /* AudioApp.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1511, 3328}}";
+			sepNavSelRange = "{5853, 0}";
+			sepNavVisRange = "{4689, 2125}";
+			sepNavVisRect = "{{0, 1444}, {1199, 390}}";
+		};
+	};
+	F5A1562D036DE22101532551 /* AudioView2D.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	F5A1562E036DE22101532551 /* AudioView2D.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1191, 4628}}";
+			sepNavSelRange = "{10139, 6}";
+			sepNavVisRange = "{9576, 937}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	F5A15633036DE6F701532551 /* AudioView3D.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1069}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+	F5A15634036DE6F701532551 /* AudioView3D.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1389, 1666}}";
+			sepNavSelRange = "{1472, 0}";
+			sepNavVisRect = "{{0, 0}, {1389, 1069}}";
+		};
+	};
+}

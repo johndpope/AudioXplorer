@@ -1,0 +1,23 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {cancel = id; generate = id; openAsSheet = id; play = id; popUpAction = id; }; 
+            CLASS = AudioDialogGenerator; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                mAmplitudeTextField = NSTextField; 
+                mChannelPopUp = NSPopUpButton; 
+                mDurationTextField = NSTextField; 
+                mFrequencyTextField = NSTextField; 
+                mParentWindow = id; 
+                mPlaySoundButton = NSButton; 
+                mRatePopUp = NSPopUpButton; 
+                mViewNameTextField = NSTextField; 
+                mWaveTypePopUp = NSPopUpButton; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

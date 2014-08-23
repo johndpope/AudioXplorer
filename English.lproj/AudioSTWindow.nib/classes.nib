@@ -1,0 +1,57 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                browseViewAction = id; 
+                changeAudioViewLayout = id; 
+                changeAudioViewListDisplay = id; 
+                closeFullScreenForView = id; 
+                closeFullScreenForWindow = id; 
+                computeFFTOfCursorLocation = id; 
+                computeFFTOfSelection = id; 
+                computeSonoOfSelection = id; 
+                computeSonoOfVisualRange = id; 
+                currentViewFullScreen = id; 
+                currentWindowFullScreen = id; 
+                deleteCurrentView = id; 
+                deleteSelectedViews = id; 
+                fftParameters = id; 
+                generateSound = id; 
+                importAIFFFile = id; 
+                movePlayerheadToCursor = id; 
+                operations = id; 
+                playSound = id; 
+                playSoundSelection = id; 
+                recordSound = id; 
+                sonoParameters = id; 
+            }; 
+            CLASS = AudioSTWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                mAudioViewList = NSTableView; 
+                mFirstViewButton = NSButton; 
+                mFullScreenBoxForView = NSBox; 
+                mFullScreenBoxForWindow = NSBox; 
+                mFullScreenPanelForView = NSPanel; 
+                mFullScreenPanelForWindow = NSPanel; 
+                mLastViewButton = NSButton; 
+                mNextViewButton = NSButton; 
+                mPageLayoutBox = NSBox; 
+                mPreviousViewButton = NSButton; 
+                mProgressBox = NSBox; 
+                mProgressIndicator = NSProgressIndicator; 
+                mProgressTextField = NSTextField; 
+                mProgressView = NSView; 
+                mSplitView = NSSplitView; 
+                mViewLayoutPopUp = NSPopUpButton; 
+                mViewLayoutView = NSView; 
+                mViewListDisplayModeView = NSView; 
+                mViewListDisplayPopUp = NSPopUpButton; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = AudioViewTable; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

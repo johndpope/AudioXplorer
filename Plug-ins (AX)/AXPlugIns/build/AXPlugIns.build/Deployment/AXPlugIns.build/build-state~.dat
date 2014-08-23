@@ -1,0 +1,83 @@
+TAXPlugIns
+v7
+r1
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/English.lproj/AXPlugInsGain.nib
+c000000003EBE31C500000000000000AA
+t1052651973
+s170
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/English.lproj/InfoPlist.strings
+c00000000451726780000000000000224
+t1159145080
+s548
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/English.lproj/Localizable.strings
+c0000000043B8771F00000000000000D2
+t1136162591
+s210
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/French.lproj/AXPlugInsGain.nib
+c000000003EBE31B600000000000000AA
+t1052651958
+s170
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/French.lproj/Localizable.strings
+c0000000043B8771F00000000000000E6
+t1136162591
+s230
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Deployment/ChCurvusProAXPlugIns.bundle
+t1160243745
+s102
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Deployment/ChCurvusProAXPlugIns.bundle/Contents/Info.plist
+t1160243743
+s891
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Deployment/ChCurvusProAXPlugIns.bundle/Contents/Resources/English.lproj/AXPlugInsGain.nib
+t1160243743
+s170
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Deployment/ChCurvusProAXPlugIns.bundle/Contents/Resources/English.lproj/InfoPlist.strings
+t1160243743
+s548
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Deployment/ChCurvusProAXPlugIns.bundle/Contents/Resources/English.lproj/Localizable.strings
+t1160243743
+s210
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Deployment/ChCurvusProAXPlugIns.bundle/Contents/Resources/French.lproj/AXPlugInsGain.nib
+t1160243743
+s170
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Deployment/ChCurvusProAXPlugIns.bundle/Contents/Resources/French.lproj/Localizable.strings
+t1160243743
+s230
+
+NInfo-AXPlugIns.plist
+c0000000044AB58A400000000000003AB
+t1152080036
+s939
+
+CCopyStringsFile "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Deployment/ChCurvusProAXPlugIns.bundle/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+r0
+
+CCopyStringsFile "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Deployment/ChCurvusProAXPlugIns.bundle/Contents/Resources/English.lproj/Localizable.strings" English.lproj/Localizable.strings
+r0
+
+CCopyStringsFile "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Deployment/ChCurvusProAXPlugIns.bundle/Contents/Resources/French.lproj/Localizable.strings" French.lproj/Localizable.strings
+r0
+
+CProcessInfoPlistFile "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Deployment/ChCurvusProAXPlugIns.bundle/Contents/Info.plist" Info-AXPlugIns.plist
+r0
+
+CStripNIB "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/English.lproj/AXPlugInsGain.nib"
+r0
+
+CStripNIB "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/French.lproj/AXPlugInsGain.nib"
+r0
+
+CTouch "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Deployment/ChCurvusProAXPlugIns.bundle"
+r0
+

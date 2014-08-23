@@ -1,0 +1,19 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {cancel = id; }; 
+            CLASS = ARProgressPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                mDelegate = id; 
+                mProgressCancelButton = NSButton; 
+                mProgressIndicator = NSProgressIndicator; 
+                mProgressPanel = NSPanel; 
+                mProgressTextField = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

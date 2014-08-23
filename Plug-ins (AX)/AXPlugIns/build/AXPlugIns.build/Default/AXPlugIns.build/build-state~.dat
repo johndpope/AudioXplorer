@@ -1,0 +1,400 @@
+TAXPlugIns
+v7
+r0
+t274137113.352998
+cCheck dependencies
+cProcessInfoPlistFile "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle/Contents/Info.plist" Info-AXPlugIns.plist
+cCopyStringsFile "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cStripNIB "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/English.lproj/AXPlugInsGain.nib"
+cStripNIB "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/French.lproj/AXPlugInsGain.nib"
+cCopyStringsFile "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle/Contents/Resources/English.lproj/Localizable.strings" English.lproj/Localizable.strings
+cCopyStringsFile "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle/Contents/Resources/French.lproj/Localizable.strings" French.lproj/Localizable.strings
+cProcessPCH /var/folders/zb/zb7D77282RWNZE+1Yl0SC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AXPlugIns_Prefix-ehubyizclgnbrvcpwrswasqpkrlj/AXPlugIns_Prefix.h.gch AXPlugIns_Prefix.h normal ppc objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/zb/zb7D77282RWNZE+1Yl0SC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AXPlugIns_Prefix-bsnvjwzsdpvkotcszpxpokxvieem/AXPlugIns_Prefix.h.gch AXPlugIns_Prefix.h normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/zb/zb7D77282RWNZE+1Yl0SC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AXPlugIns_Prefix-eiiymqdbfbdmtcdxgtryawvjcwzt/AXPlugIns_Prefix.h.pth AXPlugIns_Prefix.h normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+cCompileC build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/ppc/AXPlugIns.o "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugIns.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/ppc/AXPlugInsGainController.o "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugInsGainController.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/i386/AXPlugIns.o "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugIns.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/i386/AXPlugInsGainController.o "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugInsGainController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cAnalyze "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugIns.m"
+cAnalyze "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugInsGainController.m"
+cLd "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/i386/ChCurvusProAXPlugIns" normal i386
+cLd "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/ppc/ChCurvusProAXPlugIns" normal ppc
+cCreateUniversalBinary "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle/Contents/MacOS/ChCurvusProAXPlugIns" normal "ppc i386"
+cTouch "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle"
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+c000000004A67D2A800000000000017ED
+t1248318120
+s6125
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A600B8400000000000013E6
+t1247808388
+s5094
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugInHeader.h
+c00000000451726780000000000000C95
+t1159145080
+s3221
+i<Foundation/Foundation.h>
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugIns.h
+c00000000451726780000000000000661
+t1159145080
+s1633
+i"AXPlugInHeader.h"
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugIns.m
+c00000000451726780000000000001478
+t1159145080
+s5240
+i"AXPlugIns.h"
+i"AXPlugInsGainController.h"
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugInsGainController.h
+c00000000451726760000000000000703
+t1159145078
+s1795
+i<AppKit/AppKit.h>
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugInsGainController.m
+c00000000451726780000000000000C73
+t1159145080
+s3187
+i"AXPlugInsGainController.h"
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugIns_Prefix.h
+c00000000451726780000000000000622
+t1159145080
+s1570
+i<Foundation/Foundation.h>
+i<AppKit/AppKit.h>
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/English.lproj/AXPlugInsGain.nib
+c000000003EBE31C500000000000000AA
+t1052651973
+s170
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/English.lproj/InfoPlist.strings
+c00000000451726780000000000000224
+t1159145080
+s548
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/English.lproj/Localizable.strings
+c0000000043B8771F00000000000000D2
+t1136162591
+s210
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/French.lproj/AXPlugInsGain.nib
+c000000003EBE31B600000000000000AA
+t1052651958
+s170
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/French.lproj/Localizable.strings
+c0000000043B8771F00000000000000E6
+t1136162591
+s230
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/i386/AXPlugIns.o
+t1252444313
+s24396
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/i386/AXPlugInsGainController.o
+t1252444313
+s21052
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/i386/ChCurvusProAXPlugIns
+t1252444313
+s25860
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/i386/ChCurvusProAXPlugIns.LinkFileList
+c000000004AA6C8950000000000000150
+t1252444309
+s336
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/ppc/AXPlugIns.o
+t1252444313
+s25300
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/ppc/AXPlugInsGainController.o
+t1252444313
+s21920
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/ppc/ChCurvusProAXPlugIns
+t1252444313
+s21772
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/ppc/ChCurvusProAXPlugIns.LinkFileList
+c000000004AA6C895000000000000014E
+t1252444309
+s334
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/StaticAnalyzer/normal/i386/AXPlugIns.plist
+t1252444313
+s275
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/StaticAnalyzer/normal/i386/AXPlugInsGainController.plist
+t1252444313
+s275
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle
+t1252444313
+s102
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle/Contents/Info.plist
+t1252444309
+s882
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle/Contents/MacOS/ChCurvusProAXPlugIns
+t1252444313
+s54532
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle/Contents/Resources/English.lproj/AXPlugInsGain.nib
+t1252444309
+s6297
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle/Contents/Resources/English.lproj/InfoPlist.strings
+t1252444309
+s548
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle/Contents/Resources/English.lproj/Localizable.strings
+t1252444309
+s422
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle/Contents/Resources/French.lproj/AXPlugInsGain.nib
+t1252444309
+s6297
+
+N/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle/Contents/Resources/French.lproj/Localizable.strings
+t1252444309
+s458
+
+N/var/folders/zb/zb7D77282RWNZE+1Yl0SC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AXPlugIns_Prefix-bsnvjwzsdpvkotcszpxpokxvieem/AXPlugIns_Prefix.h.gch
+t1252444312
+s54928400
+
+N/var/folders/zb/zb7D77282RWNZE+1Yl0SC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AXPlugIns_Prefix-ehubyizclgnbrvcpwrswasqpkrlj/AXPlugIns_Prefix.h.gch
+t1252444312
+s53486480
+
+N/var/folders/zb/zb7D77282RWNZE+1Yl0SC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AXPlugIns_Prefix-eiiymqdbfbdmtcdxgtryawvjcwzt/AXPlugIns_Prefix.h.pth
+t1252388496
+s8140540
+
+NInfo-AXPlugIns.plist
+c0000000044AB58A400000000000003AB
+t1152080036
+s939
+
+CAnalyze "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugIns.m"
+s274137113.006456
+e274137113.332501
+r1
+xAnalyze
+x/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugIns.m
+lSLF07#2@102"Analyze /Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugIns.m274137113#274137113#0(0"0(0#0#94"/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugIns.m4300882208#1546"    cd "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -Wno-trigraphs -fpascal-strings -O3 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/ChCurvusProAXPlugIns.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default" "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/include" "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/DerivedSources/i386" "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/DerivedSources" -include /var/folders/zb/zb7D77282RWNZE+1Yl0SC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AXPlugIns_Prefix-eiiymqdbfbdmtcdxgtryawvjcwzt/AXPlugIns_Prefix.h --analyze "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugIns.m" -o "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/StaticAnalyzer/normal/i386/AXPlugIns.plist"0#
+
+CAnalyze "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugInsGainController.m"
+s274137113.007393
+e274137113.331823
+r1
+xAnalyze
+x/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugInsGainController.m
+lSLF07#2@116"Analyze /Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugInsGainController.m274137113#274137113#0(0"0(0#0#108"/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugInsGainController.m4300882208#1574"    cd "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -Wno-trigraphs -fpascal-strings -O3 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/ChCurvusProAXPlugIns.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default" "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/include" "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/DerivedSources/i386" "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/DerivedSources" -include /var/folders/zb/zb7D77282RWNZE+1Yl0SC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AXPlugIns_Prefix-eiiymqdbfbdmtcdxgtryawvjcwzt/AXPlugIns_Prefix.h --analyze "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugInsGainController.m" -o "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/StaticAnalyzer/normal/i386/AXPlugInsGainController.plist"0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies274137109#274137109#0(0"0(0#1#0"4300882208#0"0#
+
+CCompileC build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/i386/AXPlugIns.o "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugIns.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s274137113.004799
+e274137113.278128
+r1
+xCompileC
+xbuild/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/i386/AXPlugIns.o
+x/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugIns.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugIns.m274137113#274137113#0(0"0(0#0#94"/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugIns.m4300882208#1492"    cd "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/ChCurvusProAXPlugIns.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default" "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/include" "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/DerivedSources/i386" "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/DerivedSources" -include /var/folders/zb/zb7D77282RWNZE+1Yl0SC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AXPlugIns_Prefix-bsnvjwzsdpvkotcszpxpokxvieem/AXPlugIns_Prefix.h -c "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugIns.m" -o "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/i386/AXPlugIns.o"0#
+
+CCompileC build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/i386/AXPlugInsGainController.o "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugInsGainController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s274137113.005707
+e274137113.233814
+r1
+xCompileC
+xbuild/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/i386/AXPlugInsGainController.o
+x/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugInsGainController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@116"Compile /Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugInsGainController.m274137113#274137113#0(0"0(0#0#108"/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugInsGainController.m4300882208#1520"    cd "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/ChCurvusProAXPlugIns.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default" "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/include" "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/DerivedSources/i386" "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/DerivedSources" -include /var/folders/zb/zb7D77282RWNZE+1Yl0SC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AXPlugIns_Prefix-bsnvjwzsdpvkotcszpxpokxvieem/AXPlugIns_Prefix.h -c "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugInsGainController.m" -o "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/i386/AXPlugInsGainController.o"0#
+
+CCompileC build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/ppc/AXPlugIns.o "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugIns.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s274137113.002894
+e274137113.279208
+r1
+xCompileC
+xbuild/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/ppc/AXPlugIns.o
+x/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugIns.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugIns.m274137113#274137113#0(0"0(0#0#94"/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugIns.m4300882208#1486"    cd "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O3 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G4 -mmacosx-version-min=10.3 -gdwarf-2 "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/ChCurvusProAXPlugIns.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default" "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/include" "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/DerivedSources/ppc" "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/DerivedSources" -include /var/folders/zb/zb7D77282RWNZE+1Yl0SC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AXPlugIns_Prefix-ehubyizclgnbrvcpwrswasqpkrlj/AXPlugIns_Prefix.h -c "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugIns.m" -o "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/ppc/AXPlugIns.o"0#
+
+CCompileC build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/ppc/AXPlugInsGainController.o "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugInsGainController.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s274137113.004025
+e274137113.235515
+r1
+xCompileC
+xbuild/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/ppc/AXPlugInsGainController.o
+x/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugInsGainController.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@116"Compile /Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugInsGainController.m274137113#274137113#0(0"0(0#0#108"/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugInsGainController.m4300882208#1514"    cd "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O3 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G4 -mmacosx-version-min=10.3 -gdwarf-2 "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/ChCurvusProAXPlugIns.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default" "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/include" "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/DerivedSources/ppc" "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/DerivedSources" -include /var/folders/zb/zb7D77282RWNZE+1Yl0SC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AXPlugIns_Prefix-ehubyizclgnbrvcpwrswasqpkrlj/AXPlugIns_Prefix.h -c "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugInsGainController.m" -o "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/ppc/AXPlugInsGainController.o"0#
+
+CCopyStringsFile "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s274137109.586332
+e274137109.656391
+r1
+xCopyStringsFile
+x/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings274137109#274137109#0(0"0(0#0#114"/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/English.lproj/InfoPlist.strings4300882208#476"    cd "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle/Contents/Resources/English.lproj"0#
+
+CCopyStringsFile "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle/Contents/Resources/English.lproj/Localizable.strings" English.lproj/Localizable.strings
+s274137109.588974
+e274137109.650822
+r1
+xCopyStringsFile
+x/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle/Contents/Resources/English.lproj/Localizable.strings
+xEnglish.lproj/Localizable.strings
+lSLF07#2@38"Copy English.lproj/Localizable.strings274137109#274137109#0(0"0(0#0#116"/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/English.lproj/Localizable.strings4300882208#477"    cd "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/Localizable.strings --outdir "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle/Contents/Resources/English.lproj"0#
+
+CCopyStringsFile "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle/Contents/Resources/French.lproj/Localizable.strings" French.lproj/Localizable.strings
+s274137109.589779
+e274137109.651390
+r1
+xCopyStringsFile
+x/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle/Contents/Resources/French.lproj/Localizable.strings
+xFrench.lproj/Localizable.strings
+lSLF07#2@37"Copy French.lproj/Localizable.strings274137109#274137109#0(0"0(0#0#115"/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/French.lproj/Localizable.strings4300882208#475"    cd "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 French.lproj/Localizable.strings --outdir "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle/Contents/Resources/French.lproj"0#
+
+CCreateUniversalBinary "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle/Contents/MacOS/ChCurvusProAXPlugIns" normal "ppc i386"
+s274137113.346925
+e274137113.350432
+r1
+xCreateUniversalBinary
+x/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle/Contents/MacOS/ChCurvusProAXPlugIns
+xnormal
+xppc i386
+lSLF07#2@117"CreateUniversalBinary build/Default/ChCurvusProAXPlugIns.bundle/Contents/MacOS/ChCurvusProAXPlugIns normal "ppc i386"274137113#274137113#0(0"0(0#0#91"/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/ppc i3864300882208#632"    cd "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns"    /usr/bin/lipo -create "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/ppc/ChCurvusProAXPlugIns" "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/i386/ChCurvusProAXPlugIns" -output "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle/Contents/MacOS/ChCurvusProAXPlugIns"0#
+
+CLd "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/i386/ChCurvusProAXPlugIns" normal i386
+s274137113.278236
+e274137113.346086
+r1
+xLd
+x/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/i386/ChCurvusProAXPlugIns
+xnormal
+xi386
+lSLF07#2@174"Link /Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/i386/ChCurvusProAXPlugIns274137113#274137113#0(0"0(0#0#0"4300882208#839"    cd "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns"    setenv MACOSX_DEPLOYMENT_TARGET 10.4    /Developer/usr/bin/gcc-4.2 -arch i386 -bundle -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default" "-F/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default" -filelist "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/i386/ChCurvusProAXPlugIns.LinkFileList" -mmacosx-version-min=10.4 -framework Cocoa -o "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/i386/ChCurvusProAXPlugIns"0#
+
+CLd "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/ppc/ChCurvusProAXPlugIns" normal ppc
+s274137113.279263
+e274137113.346859
+r1
+xLd
+x/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/ppc/ChCurvusProAXPlugIns
+xnormal
+xppc
+lSLF07#2@173"Link /Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/ppc/ChCurvusProAXPlugIns274137113#274137113#0(0"0(0#0#0"4300882208#836"    cd "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns"    setenv MACOSX_DEPLOYMENT_TARGET 10.3    /Developer/usr/bin/gcc-4.2 -arch ppc -bundle -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default" "-F/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default" -filelist "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/ppc/ChCurvusProAXPlugIns.LinkFileList" -mmacosx-version-min=10.3 -framework Cocoa -o "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/Objects-normal/ppc/ChCurvusProAXPlugIns"0#
+
+CProcessInfoPlistFile "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle/Contents/Info.plist" Info-AXPlugIns.plist
+s274137109.583487
+e274137109.586190
+r1
+xProcessInfoPlistFile
+x/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle/Contents/Info.plist
+xInfo-AXPlugIns.plist
+lSLF07#2@28"Process Info-AXPlugIns.plist274137109#274137109#0(0"0(0#0#103"/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/Info-AXPlugIns.plist4300882208#330"    cd "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns"    builtin-infoPlistUtility Info-AXPlugIns.plist -expandbuildsettings -platform macosx -o "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle/Contents/Info.plist"0#
+
+CProcessPCH /var/folders/zb/zb7D77282RWNZE+1Yl0SC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AXPlugIns_Prefix-bsnvjwzsdpvkotcszpxpokxvieem/AXPlugIns_Prefix.h.gch AXPlugIns_Prefix.h normal i386 objective-c com.apple.compilers.gcc.4_2
+s274137109.834380
+e274137113.002802
+r1
+xProcessPCH
+x/var/folders/zb/zb7D77282RWNZE+1Yl0SC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AXPlugIns_Prefix-bsnvjwzsdpvkotcszpxpokxvieem/AXPlugIns_Prefix.h.gch
+xAXPlugIns_Prefix.h
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile AXPlugIns_Prefix.h274137109#274137113#0(0"0(0#0#101"/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugIns_Prefix.h4300882208#1338"    cd "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/ChCurvusProAXPlugIns.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default" "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/include" "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/DerivedSources/i386" "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/DerivedSources" -c "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugIns_Prefix.h" -o /var/folders/zb/zb7D77282RWNZE+1Yl0SC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AXPlugIns_Prefix-bsnvjwzsdpvkotcszpxpokxvieem/AXPlugIns_Prefix.h.gch0#
+
+CProcessPCH /var/folders/zb/zb7D77282RWNZE+1Yl0SC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AXPlugIns_Prefix-ehubyizclgnbrvcpwrswasqpkrlj/AXPlugIns_Prefix.h.gch AXPlugIns_Prefix.h normal ppc objective-c com.apple.compilers.gcc.4_2
+s274137109.833422
+e274137112.881461
+r1
+xProcessPCH
+x/var/folders/zb/zb7D77282RWNZE+1Yl0SC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AXPlugIns_Prefix-ehubyizclgnbrvcpwrswasqpkrlj/AXPlugIns_Prefix.h.gch
+xAXPlugIns_Prefix.h
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile AXPlugIns_Prefix.h274137109#274137112#0(0"0(0#0#101"/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugIns_Prefix.h4300882208#1333"    cd "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O3 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G4 -mmacosx-version-min=10.3 -gdwarf-2 "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/ChCurvusProAXPlugIns.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default" "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/include" "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/DerivedSources/ppc" "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/DerivedSources" -c "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugIns_Prefix.h" -o /var/folders/zb/zb7D77282RWNZE+1Yl0SC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AXPlugIns_Prefix-ehubyizclgnbrvcpwrswasqpkrlj/AXPlugIns_Prefix.h.gch0#
+
+CProcessPCH /var/folders/zb/zb7D77282RWNZE+1Yl0SC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AXPlugIns_Prefix-eiiymqdbfbdmtcdxgtryawvjcwzt/AXPlugIns_Prefix.h.pth AXPlugIns_Prefix.h normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s274081295.557875
+e274081296.483912
+r1
+xProcessPCH
+x/var/folders/zb/zb7D77282RWNZE+1Yl0SC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AXPlugIns_Prefix-eiiymqdbfbdmtcdxgtryawvjcwzt/AXPlugIns_Prefix.h.pth
+xAXPlugIns_Prefix.h
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@29"Precompile AXPlugIns_Prefix.h274081295#274081296#0(0"0(0#0#101"/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugIns_Prefix.h4300882208#1374"    cd "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -Wno-trigraphs -fpascal-strings -O3 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/ChCurvusProAXPlugIns.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default" "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/include" "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/DerivedSources/i386" "-I/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/AXPlugIns.build/Default/AXPlugIns.build/DerivedSources" -c "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/AXPlugIns_Prefix.h" -o /var/folders/zb/zb7D77282RWNZE+1Yl0SC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AXPlugIns_Prefix-eiiymqdbfbdmtcdxgtryawvjcwzt/AXPlugIns_Prefix.h.pth0#
+
+CStripNIB "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/English.lproj/AXPlugInsGain.nib"
+s274137109.587393
+e274137109.823992
+r1
+xStripNIB
+x/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/English.lproj/AXPlugInsGain.nib
+lSLF07#2@40"StripNIB English.lproj/AXPlugInsGain.nib274137109#274137109#0(0"0(0#0#114"/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/English.lproj/AXPlugInsGain.nib4300882208#461"    cd "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns"    /Developer/usr/bin/ibtool --strip "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle/Contents/Resources/English.lproj/AXPlugInsGain.nib" --output-format human-readable-text "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/English.lproj/AXPlugInsGain.nib"0#
+
+CStripNIB "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/French.lproj/AXPlugInsGain.nib"
+s274137109.588184
+e274137109.833333
+r1
+xStripNIB
+x/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/French.lproj/AXPlugInsGain.nib
+lSLF07#2@39"StripNIB French.lproj/AXPlugInsGain.nib274137109#274137109#0(0"0(0#0#113"/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/French.lproj/AXPlugInsGain.nib4300882208#459"    cd "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns"    /Developer/usr/bin/ibtool --strip "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle/Contents/Resources/French.lproj/AXPlugInsGain.nib" --output-format human-readable-text "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/French.lproj/AXPlugInsGain.nib"0#
+
+CTouch "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle"
+s274137113.350484
+e274137113.352970
+r1
+xTouch
+x/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle
+lSLF07#2@130"Touch /Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle274137113#274137113#0(0"0(0#0#0"4300882208#241"    cd "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns"    /usr/bin/touch -c "/Users/bovet/Development/ArizonaSoftware/AudioXplorer/main/Plug-ins (AX)/AXPlugIns/build/Default/ChCurvusProAXPlugIns.bundle"0#
+

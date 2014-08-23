@@ -1,0 +1,16 @@
+{
+    IBClasses = (
+        {
+            CLASS = AudioUtilities; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                mActionProgressIndicator = NSProgressIndicator; 
+                mActionProgressPanel = NSPanel; 
+                mActionProgressPrompt = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

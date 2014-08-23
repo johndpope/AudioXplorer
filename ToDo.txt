@@ -1,0 +1,3 @@
+
+Bug:
+- save a window to clipboard as EPS or PDF, the green signal trace appears not to be included.  Copy to pasteboard as image works fine, however.

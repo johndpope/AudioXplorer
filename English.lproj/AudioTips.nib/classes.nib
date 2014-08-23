@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {closePanelAction = id; dontShowAgainAction = id; nextTipsAction = id; }; 
+            CLASS = AudioTipsPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {mTipsTextField = NSTextField; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

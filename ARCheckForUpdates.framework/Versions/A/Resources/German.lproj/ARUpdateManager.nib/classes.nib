@@ -1,0 +1,37 @@
+{
+    IBClasses = (
+        {CLASS = ARFileSizeFormatter; LANGUAGE = ObjC; SUPERCLASS = NSFormatter; }, 
+        {CLASS = ARTextView; LANGUAGE = ObjC; SUPERCLASS = NSTextView; }, 
+        {
+            ACTIONS = {
+                cancel = id; 
+                cancelProgress = id; 
+                checkForUpdates = id; 
+                download = id; 
+                update = id; 
+            }; 
+            CLASS = ARUpdateManager; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                mAutoCheck = id; 
+                mAutoCheckFrequency = id; 
+                mCheckView = NSView; 
+                mDescriptionTextView = NSTextView; 
+                mDownloadButton = id; 
+                mLastCheckDate = id; 
+                mLastCheckStatus = id; 
+                mNextCheckDate = id; 
+                mProgressCancelButton = id; 
+                mProgressIndicator = id; 
+                mProgressSize = id; 
+                mProgressTitle = id; 
+                mProgressWindow = NSWindow; 
+                mTotalSize = id; 
+                mUpdateTableView = NSTableView; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}
