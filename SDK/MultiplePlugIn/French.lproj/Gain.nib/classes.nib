@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {cancelPanel = id; gainUnitPopUpAction = id; okPanel = id; }; 
+            CLASS = GainController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {mGainTextField = NSTextField; }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

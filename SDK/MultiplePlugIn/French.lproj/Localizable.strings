@@ -1,0 +1,8 @@
+"MultipleGain..." = "GainMultiple...";
+"MultipleDelay" = "DélaiMultiple";
+
+"About MultipleGain" = "À propos de GainMultiple";
+"About MultipleDelay" = "À propos de DélaiMultiple";
+
+"This plug-in method changes the gain of the audio data. It is part of the MultiplePlugIn project." = "Cet effet change le gain des données. Il fait partie du projet MultiplePlugIn.";
+"This plug-in method delays the audio data. It is part of the MultiplePlugIn project." = "Cet effet applique un délai aux données. Il fait partie du projet MultiplePlugIn.";
