@@ -1700,6 +1700,7 @@
 		A7FD646D087C49660062AEC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1724,6 +1725,7 @@
 				SDKROOT_i386 = "";
 				SDKROOT_ppc = "";
 				SECTORDER_FLAGS = "";
+				VALID_ARCHS = i386;
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
@@ -1737,6 +1739,7 @@
 		A7FD646E087C49660062AEC0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1758,6 +1761,7 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = AudioXplorer;
 				SECTORDER_FLAGS = "";
+				VALID_ARCHS = i386;
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
@@ -1771,6 +1775,7 @@
 		A7FD646F087C49660062AEC0 /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1790,6 +1795,7 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = AudioXplorer;
 				SECTORDER_FLAGS = "";
+				VALID_ARCHS = i386;
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
