@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>31DF8A50-DA7D-45E3-821C-2E710151BA1A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MultiplePlugIn</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3F477446-F610-42DD-B75D-C9CC0BAFA71B</key>
+		<string>ssh://github.com/jdp-global/AudioExplorer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Plug-ins (AX)/MultiplePlugIn/MultiplePlugIn.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3F477446-F610-42DD-B75D-C9CC0BAFA71B</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/jdp-global/AudioExplorer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3F477446-F610-42DD-B75D-C9CC0BAFA71B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3F477446-F610-42DD-B75D-C9CC0BAFA71B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AudioExplorer</string>
+		</dict>
+	</array>
+</dict>
+</plist>

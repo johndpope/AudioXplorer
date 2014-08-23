@@ -41,9 +41,16 @@ Print view
 
 
 
+
+Custom plug-ins SDK
+
+Custom plug-ins SDK for AudioXplorer are available now. They allow any programmer to develop plug-ins for AudioXplorer in a few minutes without specific knowledge of how plug-ins are working.
+
+
+
+
+
 AudioXplorer has been retired by Arizona. 
-
-
 Watch this space - get on board - fork this project and help bring this project back to life
 
 

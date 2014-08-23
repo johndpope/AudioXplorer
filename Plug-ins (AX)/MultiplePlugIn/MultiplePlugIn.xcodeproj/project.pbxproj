@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 42;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -38,7 +38,7 @@
 			productName = MultiplePlugIn;
 			productReference = 014CEA410018CDE011CA2923 /* MultiplePlugIn.bundle */;
 			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
-<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
 <plist version=\"1.0\">
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
@@ -192,10 +192,19 @@
 /* Begin PBXProject section */
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
 			buildConfigurationList = A77F4CDC0AC75E2C0079B663 /* Build configuration list for PBXProject "MultiplePlugIn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 089C166AFE841209C02AAC07 /* MultiplePlugIn */;
 			projectDirPath = "";
+			projectRoot = "";
 			targets = (
 				089C1673FE841209C02AAC07 /* MultiplePlugIn */,
 			);
