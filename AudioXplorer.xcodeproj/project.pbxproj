@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		839BF14E19A971E400693EC2 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839BF14D19A971E400693EC2 /* Accelerate.framework */; };
+		839BF15419A97A0300693EC2 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839BF15319A97A0300693EC2 /* CoreServices.framework */; };
 		A708CE9F0AD8375C0070C1B0 /* ToDo.txt in Resources */ = {isa = PBXBuildFile; fileRef = A708CE9E0AD8375C0070C1B0 /* ToDo.txt */; };
 		A717780D0AC76747009E1E0B /* ChCurvusProAXPlugIns.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A717780A0AC76747009E1E0B /* ChCurvusProAXPlugIns.bundle */; };
 		A717781E0AC76749009E1E0B /* ChCurvusProAXPlugIns.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = A717780A0AC76747009E1E0B /* ChCurvusProAXPlugIns.bundle */; };
@@ -226,7 +228,6 @@
 		A7C6E3B605E1171A0059284A /* AudioSynth.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E9B27A050EF1E900A28E5E /* AudioSynth.m */; };
 		A7C6E3BB05E1171A0059284A /* AudioDataUndo.m in Sources */ = {isa = PBXBuildFile; fileRef = A76355F405B669150096D9C9 /* AudioDataUndo.m */; };
 		A7C6E3BE05E1171A0059284A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
-		A7C6E3BF05E1171A0059284A /* vecLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58F626F035E91EE018C2097 /* vecLib.framework */; };
 		A7C6E3C005E1171A0059284A /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F549DAC003B8AABA015325D8 /* CoreAudio.framework */; };
 		A7C6E3C105E1171A0059284A /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DA748904794150005327CD /* AudioUnit.framework */; };
 		A7C6E3C205E1171A0059284A /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DA748B0479415C005327CD /* Carbon.framework */; };
@@ -243,7 +244,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DCCF14520A5C2C4D00F28379 /* PBXContainerItemProxy */ = {
+		839BF14F19A9739D00693EC2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DCF2B6FC0A5B5ACD00969481 /* AXPlugIns.xcodeproj */;
 			proxyType = 1;
@@ -292,6 +293,8 @@
 		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
 		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		839BF14D19A971E400693EC2 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		839BF15319A97A0300693EC2 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 		A704A9A40445F4960067A5E9 /* AudioTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioTypes.h; path = Sources/AudioTypes.h; sourceTree = "<group>"; };
 		A705725E05B27D2C001B9646 /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/ARProgressPanel.nib; sourceTree = "<group>"; };
 		A705725F05B27D38001B9646 /* Italian */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Italian; path = Italian.lproj/ARProgressPanel.nib; sourceTree = "<group>"; };
@@ -550,8 +553,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				839BF15419A97A0300693EC2 /* CoreServices.framework in Frameworks */,
+				839BF14E19A971E400693EC2 /* Accelerate.framework in Frameworks */,
 				A7C6E3BE05E1171A0059284A /* Cocoa.framework in Frameworks */,
-				A7C6E3BF05E1171A0059284A /* vecLib.framework in Frameworks */,
 				A7C6E3C005E1171A0059284A /* CoreAudio.framework in Frameworks */,
 				A7C6E3C105E1171A0059284A /* AudioUnit.framework in Frameworks */,
 				A7C6E3C205E1171A0059284A /* Carbon.framework in Frameworks */,
@@ -655,6 +659,8 @@
 		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				839BF15319A97A0300693EC2 /* CoreServices.framework */,
+				839BF14D19A971E400693EC2 /* Accelerate.framework */,
 				A77F4C280AC7594F0079B663 /* ARCheckForUpdates.framework */,
 				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
 				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
@@ -1204,7 +1210,7 @@
 			);
 			comments = "Powerful sound analyzer (real-time and static oscilloscope, spectrum and sonogram). Supports Audio Units Effects and custom plug-ins.";
 			dependencies = (
-				DCCF14530A5C2C4D00F28379 /* PBXTargetDependency */,
+				839BF15019A9739D00693EC2 /* PBXTargetDependency */,
 			);
 			name = AudioXplorer;
 			productInstallPath = "$(HOME)/Applications";
@@ -1408,10 +1414,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DCCF14530A5C2C4D00F28379 /* PBXTargetDependency */ = {
+		839BF15019A9739D00693EC2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AXPlugIns;
-			targetProxy = DCCF14520A5C2C4D00F28379 /* PBXContainerItemProxy */;
+			targetProxy = 839BF14F19A9739D00693EC2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1718,6 +1724,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MACOSX_DEPLOYMENT_TARGET_i386 = 10.10;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
@@ -1725,7 +1732,7 @@
 				SDKROOT_i386 = "";
 				SDKROOT_ppc = "";
 				SECTORDER_FLAGS = "";
-				VALID_ARCHS = i386;
+				VALID_ARCHS = "i386 x86_64";
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
@@ -1756,12 +1763,13 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MACOSX_DEPLOYMENT_TARGET_i386 = 10.10;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = AudioXplorer;
 				SECTORDER_FLAGS = "";
-				VALID_ARCHS = i386;
+				VALID_ARCHS = "i386 x86_64";
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
@@ -1790,12 +1798,13 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MACOSX_DEPLOYMENT_TARGET_i386 = 10.10;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = AudioXplorer;
 				SECTORDER_FLAGS = "";
-				VALID_ARCHS = i386;
+				VALID_ARCHS = "i386 x86_64";
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
@@ -1808,29 +1817,34 @@
 		A7FD6471087C49660062AEC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				MACOSX_DEPLOYMENT_TARGET_i386 = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				VALID_ARCHS = i386;
 			};
 			name = Debug;
 		};
 		A7FD6472087C49660062AEC0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_FAST_OBJC_DISPATCH = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				MACOSX_DEPLOYMENT_TARGET_i386 = 10.6;
 				SDKROOT = macosx;
+				VALID_ARCHS = i386;
 			};
 			name = Release;
 		};
 		A7FD6473087C49660062AEC0 /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1843,6 +1857,7 @@
 				MACOSX_DEPLOYMENT_TARGET_i386 = 10.6;
 				SDKROOT = macosx;
 				STRIP_INSTALLED_PRODUCT = NO;
+				VALID_ARCHS = i386;
 			};
 			name = Default;
 		};

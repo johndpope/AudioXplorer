@@ -31,7 +31,7 @@
  */
 
 #import <Cocoa/Cocoa.h>
-#import <vecLib/vDSP.h>
+#include <Accelerate/Accelerate.h>
 
 #import "AudioConstants.h"
 #import "AudioDataAmplitude.h"

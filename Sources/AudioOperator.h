@@ -31,7 +31,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#import <vecLib/vDSP.h>
+#import <Accelerate/Accelerate.h>
 #import "AudioView.h"
 #import "AudioDataWrapper.h"
 

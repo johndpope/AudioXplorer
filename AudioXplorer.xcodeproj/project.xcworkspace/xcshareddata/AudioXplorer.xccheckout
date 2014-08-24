@@ -2,28 +2,34 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>6AFD91E4-4015-4785-A497-A5B1FF2E2E89</string>
 	<key>IDESourceControlProjectName</key>
 	<string>AudioXplorer</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>0B27292147A4DAE8453DD8F4DDCCA3B9F6DCD7E1</key>
+		<string>github.com:jdp-global/AudioXplorer.git</string>
 		<key>3F477446-F610-42DD-B75D-C9CC0BAFA71B</key>
 		<string>ssh://github.com/jdp-global/AudioExplorer.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>AudioXplorer.xcodeproj/project.xcworkspace</string>
+	<string>AudioXplorer.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>3F477446-F610-42DD-B75D-C9CC0BAFA71B</key>
+		<key>0B27292147A4DAE8453DD8F4DDCCA3B9F6DCD7E1</key>
 		<string>../..</string>
+		<key>3F477446-F610-42DD-B75D-C9CC0BAFA71B</key>
+		<string>../../../AudioExplorer</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/jdp-global/AudioExplorer.git</string>
+	<string>github.com:jdp-global/AudioXplorer.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>3F477446-F610-42DD-B75D-C9CC0BAFA71B</string>
+	<string>0B27292147A4DAE8453DD8F4DDCCA3B9F6DCD7E1</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -33,6 +39,14 @@
 			<string>3F477446-F610-42DD-B75D-C9CC0BAFA71B</string>
 			<key>IDESourceControlWCCName</key>
 			<string>AudioExplorer</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0B27292147A4DAE8453DD8F4DDCCA3B9F6DCD7E1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AudioXplorer</string>
 		</dict>
 	</array>
 </dict>
