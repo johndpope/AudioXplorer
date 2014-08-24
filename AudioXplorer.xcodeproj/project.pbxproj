@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		839BF14E19A971E400693EC2 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839BF14D19A971E400693EC2 /* Accelerate.framework */; };
 		839BF15419A97A0300693EC2 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839BF15319A97A0300693EC2 /* CoreServices.framework */; };
+		83AA593B19A97F7B00C63641 /* LBAudioDetective.h in Headers */ = {isa = PBXBuildFile; fileRef = 83AA593519A97F7B00C63641 /* LBAudioDetective.h */; };
+		83AA593C19A97F7B00C63641 /* LBAudioDetective.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AA593619A97F7B00C63641 /* LBAudioDetective.m */; };
+		83AA593D19A97F7B00C63641 /* LBAudioDetectiveFingerprint.h in Headers */ = {isa = PBXBuildFile; fileRef = 83AA593719A97F7B00C63641 /* LBAudioDetectiveFingerprint.h */; };
+		83AA593E19A97F7B00C63641 /* LBAudioDetectiveFingerprint.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AA593819A97F7B00C63641 /* LBAudioDetectiveFingerprint.m */; };
+		83AA593F19A97F7B00C63641 /* LBAudioDetectiveFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 83AA593919A97F7B00C63641 /* LBAudioDetectiveFrame.h */; };
+		83AA594019A97F7B00C63641 /* LBAudioDetectiveFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AA593A19A97F7B00C63641 /* LBAudioDetectiveFrame.m */; };
+		83AA594219A97F8D00C63641 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83AA594119A97F8D00C63641 /* AudioUnit.framework */; };
+		83AA594419A97F9900C63641 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83AA594319A97F9900C63641 /* AudioToolbox.framework */; };
+		83AA594619A97FE900C63641 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83AA594519A97FE900C63641 /* AVFoundation.framework */; };
 		A708CE9F0AD8375C0070C1B0 /* ToDo.txt in Resources */ = {isa = PBXBuildFile; fileRef = A708CE9E0AD8375C0070C1B0 /* ToDo.txt */; };
 		A717780D0AC76747009E1E0B /* ChCurvusProAXPlugIns.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A717780A0AC76747009E1E0B /* ChCurvusProAXPlugIns.bundle */; };
 		A717781E0AC76749009E1E0B /* ChCurvusProAXPlugIns.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = A717780A0AC76747009E1E0B /* ChCurvusProAXPlugIns.bundle */; };
@@ -295,6 +304,15 @@
 		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		839BF14D19A971E400693EC2 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		839BF15319A97A0300693EC2 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		83AA593519A97F7B00C63641 /* LBAudioDetective.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBAudioDetective.h; sourceTree = "<group>"; };
+		83AA593619A97F7B00C63641 /* LBAudioDetective.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBAudioDetective.m; sourceTree = "<group>"; };
+		83AA593719A97F7B00C63641 /* LBAudioDetectiveFingerprint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBAudioDetectiveFingerprint.h; sourceTree = "<group>"; };
+		83AA593819A97F7B00C63641 /* LBAudioDetectiveFingerprint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBAudioDetectiveFingerprint.m; sourceTree = "<group>"; };
+		83AA593919A97F7B00C63641 /* LBAudioDetectiveFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBAudioDetectiveFrame.h; sourceTree = "<group>"; };
+		83AA593A19A97F7B00C63641 /* LBAudioDetectiveFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBAudioDetectiveFrame.m; sourceTree = "<group>"; };
+		83AA594119A97F8D00C63641 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		83AA594319A97F9900C63641 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		83AA594519A97FE900C63641 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A704A9A40445F4960067A5E9 /* AudioTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioTypes.h; path = Sources/AudioTypes.h; sourceTree = "<group>"; };
 		A705725E05B27D2C001B9646 /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/ARProgressPanel.nib; sourceTree = "<group>"; };
 		A705725F05B27D38001B9646 /* Italian */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Italian; path = Italian.lproj/ARProgressPanel.nib; sourceTree = "<group>"; };
@@ -553,6 +571,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83AA594619A97FE900C63641 /* AVFoundation.framework in Frameworks */,
+				83AA594419A97F9900C63641 /* AudioToolbox.framework in Frameworks */,
+				83AA594219A97F8D00C63641 /* AudioUnit.framework in Frameworks */,
 				839BF15419A97A0300693EC2 /* CoreServices.framework in Frameworks */,
 				839BF14E19A971E400693EC2 /* Accelerate.framework in Frameworks */,
 				A7C6E3BE05E1171A0059284A /* Cocoa.framework in Frameworks */,
@@ -601,6 +622,7 @@
 		2A37F4AAFDCFA73011CA2CEA /* AudioA */ = {
 			isa = PBXGroup;
 			children = (
+				83AA593319A97F7B00C63641 /* External */,
 				A708CE9E0AD8375C0070C1B0 /* ToDo.txt */,
 				A7A30C06042D9F3000F99847 /* History.rtf */,
 				2A37F4ABFDCFA73011CA2CEA /* Classes */,
@@ -659,6 +681,9 @@
 		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				83AA594519A97FE900C63641 /* AVFoundation.framework */,
+				83AA594319A97F9900C63641 /* AudioToolbox.framework */,
+				83AA594119A97F8D00C63641 /* AudioUnit.framework */,
 				839BF15319A97A0300693EC2 /* CoreServices.framework */,
 				839BF14D19A971E400693EC2 /* Accelerate.framework */,
 				A77F4C280AC7594F0079B663 /* ARCheckForUpdates.framework */,
@@ -666,6 +691,27 @@
 				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83AA593319A97F7B00C63641 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				83AA593419A97F7B00C63641 /* LBAudioDetective */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		83AA593419A97F7B00C63641 /* LBAudioDetective */ = {
+			isa = PBXGroup;
+			children = (
+				83AA593519A97F7B00C63641 /* LBAudioDetective.h */,
+				83AA593619A97F7B00C63641 /* LBAudioDetective.m */,
+				83AA593719A97F7B00C63641 /* LBAudioDetectiveFingerprint.h */,
+				83AA593819A97F7B00C63641 /* LBAudioDetectiveFingerprint.m */,
+				83AA593919A97F7B00C63641 /* LBAudioDetectiveFrame.h */,
+				83AA593A19A97F7B00C63641 /* LBAudioDetectiveFrame.m */,
+			);
+			path = LBAudioDetective;
 			sourceTree = "<group>";
 		};
 		A704A9A60445F9850067A5E9 /* Headers */ = {
@@ -1097,6 +1143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7C6E2DC05E1171A0059284A /* AudioDocument.h in Headers */,
+				83AA593B19A97F7B00C63641 /* LBAudioDetective.h in Headers */,
 				A7C6E2DD05E1171A0059284A /* AudioDataAmplitude.h in Headers */,
 				A7C6E2DE05E1171A0059284A /* AudioOpFFT.h in Headers */,
 				A7C6E2DF05E1171A0059284A /* AudioConstants.h in Headers */,
@@ -1112,9 +1159,11 @@
 				A7C6E2E905E1171A0059284A /* AudioDataFFT.h in Headers */,
 				A7C6E2EA05E1171A0059284A /* AudioSTWindowController.h in Headers */,
 				A7C6E2EB05E1171A0059284A /* AudioDataWrapper.h in Headers */,
+				83AA593D19A97F7B00C63641 /* LBAudioDetectiveFingerprint.h in Headers */,
 				A7C6E2EC05E1171A0059284A /* AudioRecorder.h in Headers */,
 				A7C6E2ED05E1171A0059284A /* AudioDialogPrefs.h in Headers */,
 				A7C6E2EE05E1171A0059284A /* AudioRTWindowController.h in Headers */,
+				83AA593F19A97F7B00C63641 /* LBAudioDetectiveFrame.h in Headers */,
 				A7C6E2EF05E1171A0059284A /* AudioRTDisplayer.h in Headers */,
 				A7C6E2F005E1171A0059284A /* AudioViewAppearanceController.h in Headers */,
 				A7C6E2F105E1171A0059284A /* AIFFCodec.h in Headers */,
@@ -1381,11 +1430,13 @@
 				A7C6E3A505E1171A0059284A /* AudioView+Rectangles.m in Sources */,
 				A7C6E3A605E1171A0059284A /* AudioView+Display.m in Sources */,
 				A7C6E3A705E1171A0059284A /* AudioView+Range.m in Sources */,
+				83AA593E19A97F7B00C63641 /* LBAudioDetectiveFingerprint.m in Sources */,
 				A7C6E3A805E1171A0059284A /* AudioView+Notifications.m in Sources */,
 				A7C6E3A905E1171A0059284A /* AudioView+Images.m in Sources */,
 				A7C6E3AA05E1171A0059284A /* AudioView+DragAndDrop.m in Sources */,
 				A7C6E3AB05E1171A0059284A /* AudioView+Playback.m in Sources */,
 				A7C6E3AC05E1171A0059284A /* AudioView+SubclassOnly.m in Sources */,
+				83AA594019A97F7B00C63641 /* LBAudioDetectiveFrame.m in Sources */,
 				A7C6E3AD05E1171A0059284A /* AudioSplitView.m in Sources */,
 				A7C6E3AE05E1171A0059284A /* ARDynamicMenu.m in Sources */,
 				A7C6E3AF05E1171A0059284A /* ARNetwork.m in Sources */,
@@ -1393,6 +1444,7 @@
 				A7C6E3B105E1171A0059284A /* AudioPrinterView.m in Sources */,
 				A7C6E3B305E1171A0059284A /* ARProgressPanel.m in Sources */,
 				A7C6E3B405E1171A0059284A /* AudioFileImporter.m in Sources */,
+				83AA593C19A97F7B00C63641 /* LBAudioDetective.m in Sources */,
 				A7C6E3B505E1171A0059284A /* ARFileUtilities.m in Sources */,
 				A7C6E3B605E1171A0059284A /* AudioSynth.m in Sources */,
 				A7C6E3BB05E1171A0059284A /* AudioDataUndo.m in Sources */,
