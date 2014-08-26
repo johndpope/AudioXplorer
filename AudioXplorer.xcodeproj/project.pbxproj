@@ -18,6 +18,7 @@
 		83AA594219A97F8D00C63641 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83AA594119A97F8D00C63641 /* AudioUnit.framework */; };
 		83AA594419A97F9900C63641 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83AA594319A97F9900C63641 /* AudioToolbox.framework */; };
 		83AA594619A97FE900C63641 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83AA594519A97FE900C63641 /* AVFoundation.framework */; };
+		83ADAA7A19AB738900EF9AF8 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83ADAA7919AB738900EF9AF8 /* CoreMIDI.framework */; };
 		A708CE9F0AD8375C0070C1B0 /* ToDo.txt in Resources */ = {isa = PBXBuildFile; fileRef = A708CE9E0AD8375C0070C1B0 /* ToDo.txt */; };
 		A717780D0AC76747009E1E0B /* ChCurvusProAXPlugIns.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A717780A0AC76747009E1E0B /* ChCurvusProAXPlugIns.bundle */; };
 		A717781E0AC76749009E1E0B /* ChCurvusProAXPlugIns.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = A717780A0AC76747009E1E0B /* ChCurvusProAXPlugIns.bundle */; };
@@ -313,6 +314,7 @@
 		83AA594119A97F8D00C63641 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		83AA594319A97F9900C63641 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		83AA594519A97FE900C63641 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		83ADAA7919AB738900EF9AF8 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
 		A704A9A40445F4960067A5E9 /* AudioTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioTypes.h; path = Sources/AudioTypes.h; sourceTree = "<group>"; };
 		A705725E05B27D2C001B9646 /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/ARProgressPanel.nib; sourceTree = "<group>"; };
 		A705725F05B27D38001B9646 /* Italian */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Italian; path = Italian.lproj/ARProgressPanel.nib; sourceTree = "<group>"; };
@@ -571,6 +573,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83ADAA7A19AB738900EF9AF8 /* CoreMIDI.framework in Frameworks */,
 				83AA594619A97FE900C63641 /* AVFoundation.framework in Frameworks */,
 				83AA594419A97F9900C63641 /* AudioToolbox.framework in Frameworks */,
 				83AA594219A97F8D00C63641 /* AudioUnit.framework in Frameworks */,
@@ -681,6 +684,7 @@
 		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				83ADAA7919AB738900EF9AF8 /* CoreMIDI.framework */,
 				83AA594519A97FE900C63641 /* AVFoundation.framework */,
 				83AA594319A97F9900C63641 /* AudioToolbox.framework */,
 				83AA594119A97F8D00C63641 /* AudioUnit.framework */,

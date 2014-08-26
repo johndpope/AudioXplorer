@@ -11,6 +11,31 @@
     
 #import "LBAudioDetectiveFingerprint.h"
 
+
+
+#define LBErrorCheck(error) (LBErrorCheckOnLine(error, __LINE__))
+#define LBAssert(condition) (LBErrorCheckOnLine(!condition, __LINE__))
+
+
+
+static inline void LBErrorCheckOnLine(OSStatus error, int line) {
+    if (error == noErr) {
+        return;
+    }
+    
+    char errorString[7];
+    *(UInt32*)(errorString+1) = CFSwapInt32HostToBig(error);
+    if (isprint(errorString[1]) && isprint(errorString[2]) && isprint(errorString[3]) && isprint(errorString[4])) {
+        errorString[0] = errorString[5] = '\'';
+        errorString[6] = '\0';
+    }
+    else {
+        sprintf(errorString, "%d", (int)error);
+    }
+    
+    fprintf(stderr, "Error %s on line %i\n", errorString, line);
+}
+
 extern const OSStatus kLBAudioDetectiveArgumentInvalid;
 
 extern const UInt32 kLBAudioDetectiveDefaultWindowSize;
@@ -316,3 +341,5 @@ OSStatus LBAudioDetectivePauseProcessing(LBAudioDetectiveRef inDetective);
 OSStatus LBAudioDetectiveCompareAudioURLs(LBAudioDetectiveRef inDetective, NSURL* inFileURL1, NSURL* inFileURL2, UInt32 inComparisonRange, Float32* outMatch);
 
 #pragma mark -
+
+LBAudioDetectiveFingerprintRef LBAudioDetectiveDetermineFingerPrint( NSURL* inFileURL1,LBAudioDetectiveRef inDetective);

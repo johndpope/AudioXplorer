@@ -74,26 +74,8 @@ OSStatus LBAudioDetectiveConvertToFormat(void* inData, AudioStreamBasicDescripti
 
 #pragma mark Utilites
 
-#define LBErrorCheck(error) (LBErrorCheckOnLine(error, __LINE__))
-#define LBAssert(condition) (LBErrorCheckOnLine(!condition, __LINE__))
 
-static inline void LBErrorCheckOnLine(OSStatus error, int line) {
-    if (error == noErr) {
-        return;
-    }
-    
-    char errorString[7];
-    *(UInt32*)(errorString+1) = CFSwapInt32HostToBig(error);
-    if (isprint(errorString[1]) && isprint(errorString[2]) && isprint(errorString[3]) && isprint(errorString[4])) {
-        errorString[0] = errorString[5] = '\'';
-        errorString[6] = '\0';
-    }
-    else {
-        sprintf(errorString, "%d", (int)error);
-    }
-    
-    fprintf(stderr, "Error %s on line %i\n", errorString, line);
-}
+
 
 #pragma mark -
 #pragma mark (De)Allocation
@@ -759,6 +741,23 @@ OSStatus LBAudioDetectiveCompareAudioURLs(LBAudioDetectiveRef inDetective, NSURL
     LBAudioDetectiveFingerprintDispose(fingerprint1);
     
     return error;
+}
+
+
+
+LBAudioDetectiveFingerprintRef LBAudioDetectiveDetermineFingerPrint( NSURL* inFileURL1,LBAudioDetectiveRef inDetective) {
+    
+    OSStatus error = noErr;
+    error = LBAudioDetectiveProcessAudioURL(inDetective, inFileURL1);
+    LBErrorCheck(error);
+    
+    // FingerPrint 1
+    LBAudioDetectiveFingerprintRef fingerprint1 = LBAudioDetectiveFingerprintCopy(inDetective->fingerprint);
+    
+    
+    //   LBAudioDetectiveFingerprintDispose(fingerprint1);
+    
+    return fingerprint1;
 }
 
 #pragma mark -

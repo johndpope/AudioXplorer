@@ -38,6 +38,10 @@
 #import "AIFFCodec.h"
 #import "AudioDialogPrefs.h"
 
+#import "LBAudioDetective.h"
+#import "LBAudioDetectiveFingerprint.h"
+
+
 @implementation AudioExchange
 
 - (id)init
@@ -234,6 +238,224 @@
     [savePanel beginSheetForDirectory:NULL file:NULL modalForWindow:mWindow modalDelegate:self didEndSelector:@selector(exportAIFFPanelDidEnd:returnCode:contextInfo:) contextInfo:NULL];
 }
 
+
+
+- (void)createFingerPrintFromView_:(AudioView*)view
+{
+    mWindow = [view window];
+    mDataSource = [view dataSource];
+    mAudioView = view;
+
+   FLOAT x0  = [view xAxisSelectionRangeFrom];
+    FLOAT x1  = [view xAxisSelectionRangeTo];
+    
+    
+    MIDIClientCreate(CFSTR("Magical MIDI"), NULL, NULL,
+                     &theMidiClient);
+    [self setupReceiver];
+    //[self startSending];
+    [self test];
+//     AudioDataWrapper *wrapper = [AudioDataWrapper initWithAudioData:mDataSource];
+//    [wrapper setView:view];
+    
+    NSLog(@"wrapper:%f",x0);
+      NSLog(@"wrapper:%f",x1);
+    
+    
+ //   AudioDataWrapper *wp =   [AudioOpFFT computeWrapper:wrapper selection:YES];
+    return;
+    
+//    [AudioOpFFT computeWrapper:wrapper selection:NO]
+    USHORT channel = [mExportAIFFChannelPopUp indexOfSelectedItem];
+    BOOL selectionOnly = [mExportAIFFSelectionOnlyButton state] == NSOnState;
+    
+    
+  //  [self prepareDataRangeWithSelection:selectionOnly];
+        NSString *delimiter = [[mExportRawDataDelimitersPopUp selectedItem] title];
+    
+    ULONG from = [mDataSource indexOfXValue:mFromX channel:LEFT_CHANNEL];
+    ULONG to = [mDataSource indexOfXValue:mToX channel:LEFT_CHANNEL];
+    
+    NSString *rawData = [mDataSource stringOfRawDataFromIndex:from to:to channel:channel delimiter:delimiter];
+    NSString *mTempFile = [[NSTemporaryDirectory() stringByAppendingPathComponent:@"temp.aif"] retain];
+    
+    NSURL *url =[NSURL fileURLWithPath:mTempFile];
+    NSError *error;
+    [rawData writeToURL:url atomically:YES encoding:NSASCIIStringEncoding error:&error ];
+    
+    
+   // NSURL* URL = [[NSBundle mainBundle] URLForResource:@"temp" withExtension:@"aif"];
+   LBAudioDetectiveRef inDetective = LBAudioDetectiveNew();
+
+    LBAudioDetectiveFingerprintRef fingerprint2 =LBAudioDetectiveDetermineFingerPrint(url,inDetective);
+    
+    NSLog(@"fingerprint:%u",fingerprint2);
+    //save to disk
+    
+
+}
+
+
+
+
+#define NSLogError(c,str) do{if (c) NSLog(@"Error (%@): %u:%@", str, (unsigned int)c,[NSError errorWithDomain:NSMachErrorDomain code:c userInfo:nil]); }while(false)
+
+static void spit(Byte* values, int length, BOOL useHex) {
+    NSMutableString *thing = [@"" mutableCopy];
+    for (int i=0; i<length; i++) {
+        if (useHex)
+            [thing appendFormat:@"0x%X ", values[i]];
+        else
+            [thing appendFormat:@"%d ", values[i]];
+    }
+    NSLog(@"Length=%d %@", length, thing);
+}
+
+- (void) startSending {
+    MIDIEndpointRef midiOut;
+    char pktBuffer[1024];
+    MIDIPacketList* pktList = (MIDIPacketList*) pktBuffer;
+    MIDIPacket     *pkt;
+    Byte            midiDataToSend[] = {0x91, 0x3c, 0x40};
+    int             i;
+    
+    MIDISourceCreate(theMidiClient, CFSTR("Magical MIDI Source"),
+                     &midiOut);
+    pkt = MIDIPacketListInit(pktList);
+    pkt = MIDIPacketListAdd(pktList, 1024, pkt, 0, 3, midiDataToSend);
+    
+    for (i = 0; i < 100; i++) {
+        if (pkt == NULL || MIDIReceived(midiOut, pktList)) {
+            printf("failed to send the midi.\n");
+        } else {
+            printf("sent!\n");
+        }
+        sleep(1);
+    }
+}
+
+void ReadProc(const MIDIPacketList *packetList, void *readProcRefCon, void *srcConnRefCon)
+{
+    const MIDIPacket *packet = &packetList->packet[0];
+    
+    for (int i = 0; i < packetList->numPackets; i++)
+    {
+        
+        NSData *data = [NSData dataWithBytes:packet->data length:packet->length];
+        spit((Byte*)data.bytes, data.length, YES);
+        
+        packet = MIDIPacketNext(packet);
+    }
+}
+
+- (void) setupReceiver {
+    OSStatus s;
+    MIDIEndpointRef virtualInTemp;
+    NSString *inName = [NSString stringWithFormat:@"Magical MIDI Destination"];
+    s = MIDIDestinationCreate(theMidiClient, (__bridge CFStringRef)inName, ReadProc,  (__bridge void *)self, &virtualInTemp);
+    NSLogError(s, @"Create virtual MIDI in");
+}
+-(void)test{
+
+    OSStatus status = 0;
+
+    MusicSequence newSeq = [AudioExchange getSequence];
+        MusicTrack thisTrack;
+        MusicTrack tempoTrack;
+//    
+//    status = NewMusicSequence(&newSeq);
+//    if(status){
+//        printf("Error new sequence: %ld\n", status);
+//        status = 0;
+//    } else {
+//        MusicSequenceSetSequenceType(newSeq, kMusicSequenceType_Seconds);
+//    }
+
+
+    status = MusicSequenceGetTempoTrack(newSeq, &tempoTrack);
+    LBErrorCheck(status);
+    
+    status = MusicTrackNewExtendedTempoEvent(tempoTrack, 0, 120);
+    LBErrorCheck(status);
+    
+
+    status = MusicSequenceNewTrack(newSeq, &thisTrack);
+    LBErrorCheck(status);
+    
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,
+                                                         NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0] ;
+    NSString *midiPath = [documentsDirectory
+                          stringByAppendingPathComponent:[NSString stringWithFormat:@"/%@.mid",@"test"]];
+    NSLog(@"midiPath:%@",midiPath);
+    
+    CFURLRef midiURL = (CFURLRef)[[NSURL alloc] initFileURLWithPath:midiPath];
+
+    
+    status = MusicSequenceFileCreate(newSeq, midiURL, kMusicSequenceFile_MIDIType, kMusicSequenceFileFlags_EraseFile, 0);
+    LBErrorCheck(status);
+    
+
+}
++ (MusicSequence)getSequence
+{
+    MusicSequence mySequence;
+    MusicTrack myTrack;
+    NewMusicSequence(&mySequence);
+    MusicSequenceNewTrack(mySequence, &myTrack);
+    
+    MIDINoteMessage noteMessage;
+   
+    noteMessage.channel = 0;
+    noteMessage.note = 4;
+    noteMessage.velocity = 90;
+    noteMessage.releaseVelocity = 0;
+    noteMessage.duration = 4;
+    
+    for(int i = 0; i<100; i++) {
+        MIDINoteMessage thisMessage;
+         MusicTimeStamp timestamp =  arc4random_uniform(60);
+        thisMessage.note = arc4random_uniform(90)+20;
+        thisMessage.duration = arc4random_uniform(4);
+        thisMessage.velocity = 120;
+        thisMessage.releaseVelocity = 0;
+        thisMessage.channel = 1;
+        if (MusicTrackNewMIDINoteEvent(myTrack, timestamp, &noteMessage) != noErr) NSLog(@"ERROR creating the note");
+        else NSLog(@"Note added");
+    }
+    
+    
+
+    
+    return mySequence;
+}
+
+/*
+ NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,
+ NSUserDomainMask, YES);
+ NSString *documentsDirectory = [paths objectAtIndex:0];
+ and if you'd like to create a folder inside that one to store your MIDIs you'll need to check first if it is valid or create it like this Create a folder inside documents folder in iOS apps
+ 
+ And add the string to a CFURLRef to use in MusicSequenceFileCreate directly
+ 
+
+ 
+ 
+
+    NSURL *thisurl = [NSURL URLWithString:[@"~/Documents" stringByAppendingPathComponent:[NSString stringWithFormat:@"%@.mid", convertThis.title]]];
+    status = MusicSequenceFileCreate(newSeq, (__bridge CFURLRef) thisurl, kMusicSequenceFile_MIDIType, kMusicSequenceFileFlags_EraseFile, 0);
+    if(status != noErr){
+        printf("Error on create: %ld\n", status);
+        status = 0;
+    }
+}*/
+/*
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
+{
+
+    
+}*/
+
 + (void)exportDataAsAIFFFromView:(AudioView*)view
 {
     AudioExchange *ex = [[AudioExchange alloc] init];
@@ -296,6 +518,7 @@
         didEndSelector:@selector(exportRawDataFromView:returnCode:contextInfo:) contextInfo:NULL];
 }
 
+
 + (BOOL)canExportDataAsRawData:(id)data
 {
     if([data respondsToSelector:@selector(supportRawDataExport)])	
@@ -310,4 +533,10 @@
     [utils exportDataAsRawDataFromView_:view];
 }
 
+
++ (void)createFingerPrintFromView:(AudioView*)view
+{
+    AudioExchange *ex = [[AudioExchange alloc] init];
+    [ex createFingerPrintFromView_:view];
+}
 @end

@@ -32,7 +32,7 @@
 
 typedef short SHORT;		// 16 bits
 typedef unsigned short USHORT;	// 16 bits
-typedef unsigned int ULONG;	// 32 bits -- "int" to get around NSArchiver difference between old ppc compiler & x86
+typedef UInt32 ULONG;	// 32 bits -- "int" to get around NSArchiver difference between old ppc compiler & x86
 typedef int SLONG;		// 32 bits -- "int" to get around NSArchiver difference between old ppc compiler & x86
 typedef double DOUBLE;		// 64 bits
 typedef float FLOAT;		// 32 bits

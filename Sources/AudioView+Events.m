@@ -21,8 +21,8 @@
  OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
  INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
-														   NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-														   DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
@@ -40,31 +40,31 @@
 {
     NSPoint p = [self convertPoint:[event locationInWindow] fromView:nil];
     unsigned int flags = [event modifierFlags];
-    FLOAT cursorX = [self computeXRealValueFromXPixel:p.x]; 
-
+    FLOAT cursorX = [self computeXRealValueFromXPixel:p.x];
+    
     if(flags & NSShiftKeyMask)
     {
         if(first)
-            mSel_MinX = mSel_MaxX = cursorX; 
+            mSel_MinX = mSel_MaxX = cursorX;
         else
             mSel_MaxX = cursorX;
         
         [self selectionHasChanged];
     } else if(flags & NSAlternateKeyMask && [mDataSource supportPlayback]
-            && [mDataSource supportTrigger] == NO)
+              && [mDataSource supportTrigger] == NO)
     {
         mPlayerheadPosition = cursorX;
         [self playerHeadHasChanged];
     } else if(flags & NSAlternateKeyMask && [mDataSource supportTrigger])
     {
-        FLOAT cursorY = [self computeYRealValueFromYPixel:p.y]; 
+        FLOAT cursorY = [self computeYRealValueFromYPixel:p.y];
         [mDataSource setTriggerOffset:cursorY];
         [self setShowTriggerCursor:YES];
         [self triggerCursorHasChanged];
     } else
     {
-        [self setShowCursor:YES];        
-        [self setCursorPositionX:cursorX positionY:[self computeYRealValueFromYPixel:p.y]]; 
+        [self setShowCursor:YES];
+        [self setCursorPositionX:cursorX positionY:[self computeYRealValueFromYPixel:p.y]];
         [self cursorHasChanged];
     }
 }
@@ -84,10 +84,10 @@
         
         mVisual_MinX = -percent*delta;
         mVisual_MaxX = (1-percent)*delta;
-
+        
         [self scaleHasChanged];
         [self updateXAxisScroller];
-
+        
         return YES;
     } else
         return NO;
@@ -108,10 +108,10 @@
         
         mVisual_MinY = -percent*delta;
         mVisual_MaxY = (1-percent)*delta;
-
+        
         [self scaleHasChanged];
         [self updateYAxisScroller];
-
+        
         return YES;
     } else
         return NO;
@@ -122,16 +122,16 @@
     if(flags & NSCommandKeyMask && first == NO)
     {
         // Offset
-
+        
         FLOAT delta = -((p.x-mOldPoint.x)/mDrawableRect.size.width)*(mVisual_MaxX-mVisual_MinX);
         mVisual_MinX += delta;
         mVisual_MaxX += delta;
-
+        
         [self scaleHasChanged];
         [self updateXAxisScroller];
-
+        
         mOldPoint = p;
-
+        
         return YES;
     } else
         return NO;
@@ -142,16 +142,16 @@
     if(flags & NSCommandKeyMask && first == NO)
     {
         // Offset
-
+        
         FLOAT delta = -((p.y-mOldPoint.y)/mDrawableRect.size.height)*(mVisual_MaxY-mVisual_MinY);
         mVisual_MinY += delta;
         mVisual_MaxY += delta;
-
+        
         [self scaleHasChanged];
         [self updateYAxisScroller];
-
+        
         mOldPoint = p;
-
+        
         return YES;
     } else
         return NO;
@@ -170,12 +170,12 @@
         mVisual_MinX = mVisual_MaxX-(mDrawableRect.size.width/(p.x-mDrawableRect.origin.x))*mPointValue;
         if(mVisual_MinX >= mVisual_MaxX)
             mVisual_MinX = old_x;
-
+        
         mPointValue = [self computeXRealValueFromXPixel:p.x]-mVisual_MinX;
-
+        
         [self scaleHasChanged];
         [self updateXAxisScroller];
-
+        
         return YES;
     } else if(flags & NSAlternateKeyMask)
     {
@@ -184,12 +184,12 @@
         mVisual_MaxX = (mDrawableRect.size.width/(p.x-mDrawableRect.origin.x))*mPointValue+mVisual_MinX;
         if(mVisual_MinX >= mVisual_MaxX)
             mVisual_MaxX = old_x;
-
+        
         mPointValue = [self computeXRealValueFromXPixel:p.x]-mVisual_MinX;
-
+        
         [self scaleHasChanged];
         [self updateXAxisScroller];
-
+        
         return YES;
     } else
         return NO;
@@ -208,12 +208,12 @@
         mVisual_MinY = mVisual_MaxY-(mDrawableRect.size.height/(p.y-mDrawableRect.origin.y))*mPointValue;
         if(mVisual_MinY >= mVisual_MaxY)
             mVisual_MinY = old_y;
-
+        
         mPointValue = [self computeYRealValueFromYPixel:p.y]-mVisual_MinY;
-
+        
         [self scaleHasChanged];
         [self updateYAxisScroller];
-
+        
         return YES;
     } else if(flags & NSAlternateKeyMask)
     {
@@ -222,19 +222,19 @@
         mVisual_MaxY = (mDrawableRect.size.height/(p.y-mDrawableRect.origin.y))*mPointValue+mVisual_MinY;
         if(mVisual_MinY >= mVisual_MaxY)
             mVisual_MaxY = old_y;
-
+        
         mPointValue = [self computeYRealValueFromYPixel:p.y]-mVisual_MinY;
-
+        
         [self scaleHasChanged];
         [self updateYAxisScroller];
-
+        
         return YES;
     } else
         return NO;
 }
 
 - (BOOL)handleXAxisScaleLocation:(NSPoint)p modifiers:(unsigned int)flags first:(BOOL)first
-{   
+{
     if(first)
     {
         mScaleReset = NO;
@@ -244,11 +244,11 @@
         // Scale
         
         FLOAT px = [self computeXRealValueFromXPixel:p.x];
-            
+        
         if(sign(px) == sign(mPointValue)
-            && (sign(mPointValue) == 1 && px>1e-6
-            || sign(mPointValue) == -1 && px<-1e-6))
-        {             
+           && (sign(mPointValue) == 1 && px>1e-6
+               || sign(mPointValue) == -1 && px<-1e-6))
+        {
             if(mScaleReset)
             {
                 mPointValue = px;
@@ -257,7 +257,7 @@
             {
                 FLOAT maxX = mVisual_MaxX/(px/mPointValue);
                 FLOAT minX = mVisual_MinX/(px/mPointValue);
-            
+                
                 if(maxX>minX)
                 {
                     mVisual_MinX = minX;
@@ -267,18 +267,18 @@
             }
         } else
             mScaleReset = YES;
-    
+        
         [self scaleHasChanged];
         [self updateXAxisScroller];
-    
+        
         mOldPoint = p;
-    
+        
         return YES;
     }
 }
-                
+
 - (BOOL)handleYAxisScaleLocation:(NSPoint)p modifiers:(unsigned int)flags first:(BOOL)first
-{   
+{
     if(first)
     {
         mScaleReset = NO;
@@ -288,11 +288,11 @@
         // Scale
         
         FLOAT py = [self computeYRealValueFromYPixel:p.y];
-            
+        
         if(sign(py) == sign(mPointValue)
-            && (sign(mPointValue) == 1 && py>1e-6
-            || sign(mPointValue) == -1 && py<-1e-6))
-        {             
+           && (sign(mPointValue) == 1 && py>1e-6
+               || sign(mPointValue) == -1 && py<-1e-6))
+        {
             if(mScaleReset)
             {
                 mPointValue = py;
@@ -311,21 +311,21 @@
             }
         } else
             mScaleReset = YES;
-    
+        
         [self scaleHasChanged];
         [self updateYAxisScroller];
-    
+        
         mOldPoint = p;
-    
+        
         return YES;
     }
 }
-                
+
 - (void)handleMouseInXAxisRect:(NSEvent*)event first:(BOOL)first
 {
     NSPoint p = [self convertPoint:[event locationInWindow] fromView:nil];
     unsigned int flags = [event modifierFlags];
-
+    
     if(first)
     {
         mOldPoint = p;
@@ -342,7 +342,7 @@
 {
     NSPoint p = [self convertPoint:[event locationInWindow] fromView:nil];
     unsigned int flags = [event modifierFlags];
-
+    
     if(first)
     {
         mOldPoint = p;
@@ -356,7 +356,7 @@
 }
 
 - (BOOL)handleMouse:(NSEvent*)event firstPoint:(NSPoint)firstPt first:(BOOL)first
-{    
+{
     BOOL stop = FALSE;
     
     if(NSPointInRect(firstPt, [self drawableRect]))
@@ -380,7 +380,7 @@
 - (void)moveCursorOfDeltaX:(FLOAT)delta
 {
     FLOAT cursorX = [self xCursorPosition]+delta;
-    [self setCursorPositionX:cursorX positionY:[self yCursorPosition]]; 
+    [self setCursorPositionX:cursorX positionY:[self yCursorPosition]];
     [self cursorHasChanged];
     [self setNeedsDisplay:YES];
 }
@@ -388,21 +388,21 @@
 - (void)moveCursorOfDeltaY:(FLOAT)delta
 {
     FLOAT cursorY = [self yCursorPosition]+delta;
-    [self setCursorPositionX:[self xCursorPosition] positionY:cursorY]; 
+    [self setCursorPositionX:[self xCursorPosition] positionY:cursorY];
     [self cursorHasChanged];
     [self setNeedsDisplay:YES];
 }
 
 - (void)moveCursorToStart
 {
-    [self setCursorPositionX:[self xAxisVisualRangeFrom] positionY:[self yCursorPosition]]; 
+    [self setCursorPositionX:[self xAxisVisualRangeFrom] positionY:[self yCursorPosition]];
     [self cursorHasChanged];
     [self setNeedsDisplay:YES];
 }
 
 - (void)moveCursorToEnd
 {
-    [self setCursorPositionX:[self xAxisVisualRangeTo] positionY:[self yCursorPosition]]; 
+    [self setCursorPositionX:[self xAxisVisualRangeTo] positionY:[self yCursorPosition]];
     [self cursorHasChanged];
     [self setNeedsDisplay:YES];
 }
@@ -413,14 +413,14 @@
     switch([sender hitPart]) {
         case NSScrollerKnob:
         case NSScrollerKnobSlot:
-            {
-                float delta = (mMaxX-mMinX)-range;
-                float p = [sender floatValue]*delta;
-                
-                mVisual_MinX = mMinX+p;
-                mVisual_MaxX = mVisual_MinX+range;
-                break;
-            }
+        {
+            float delta = (mMaxX-mMinX)-range;
+            float p = [sender floatValue]*delta;
+            
+            mVisual_MinX = mMinX+p;
+            mVisual_MaxX = mVisual_MinX+range;
+            break;
+        }
         case NSScrollerDecrementLine:
             mVisual_MinX -= range*0.1;
             mVisual_MaxX -= range*0.1;
@@ -454,14 +454,14 @@
     switch([sender hitPart]) {
         case NSScrollerKnob:
         case NSScrollerKnobSlot:
-            {
-                float delta = (mMaxY-mMinY)-range;
-                float p = (1-[sender floatValue])*delta;
-                
-                mVisual_MinY = mMinY+p;
-                mVisual_MaxY = mVisual_MinY+range;                
-                break;
-            }
+        {
+            float delta = (mMaxY-mMinY)-range;
+            float p = (1-[sender floatValue])*delta;
+            
+            mVisual_MinY = mMinY+p;
+            mVisual_MaxY = mVisual_MinY+range;
+            break;
+        }
         case NSScrollerDecrementLine:
             mVisual_MinY += range*0.1;
             mVisual_MaxY += range*0.1;
@@ -491,17 +491,17 @@
 
 - (BOOL)performKeyEquivalent:(NSEvent *)event
 {
-	NSString *chars = [event charactersIgnoringModifiers];
+    NSString *chars = [event charactersIgnoringModifiers];
     unsigned int flags = [event modifierFlags];
-
-	if((flags & NSCommandKeyMask) == 0)
-		return NO;
-	
-	if([chars intValue]>=0 && [chars intValue]<=9 && [mDelegate respondsToSelector:@selector(performInspectorKeyEquivalent:)]) {
-		[mDelegate performSelector:@selector(performInspectorKeyEquivalent:) withObject:event];
-		return NO;
-	}
-	return NO;
+    
+    if((flags & NSCommandKeyMask) == 0)
+        return NO;
+    
+    if([chars intValue]>=0 && [chars intValue]<=9 && [mDelegate respondsToSelector:@selector(performInspectorKeyEquivalent:)]) {
+        [mDelegate performSelector:@selector(performInspectorKeyEquivalent:) withObject:event];
+        return NO;
+    }
+    return NO;
 }
 
 - (void)keyDown:(NSEvent*)event
@@ -511,7 +511,7 @@
     unsigned int c = [chars characterAtIndex:0];
     
     FLOAT incr = 0;
-    	
+    
     if(c == NSRightArrowFunctionKey || c == NSLeftArrowFunctionKey)
         incr = ([self xAxisVisualRangeTo]-[self xAxisVisualRangeFrom])/40;
     else if(c == NSUpArrowFunctionKey || c == NSDownArrowFunctionKey)
@@ -527,7 +527,7 @@
     switch(c) {
         case 32:
             if(![self setPlayerState:!mPlayerIsRunning withSelection:(flags & NSAlternateKeyMask)!=0]
-            && [mDelegate respondsToSelector:@selector(viewKeyDown:)])
+               && [mDelegate respondsToSelector:@selector(viewKeyDown:)])
                 [mDelegate performSelector:@selector(viewKeyDown:) withObject:event];
             break;
         case 'c':	// Show/hide cursor
@@ -568,25 +568,25 @@
             if([mDataSource kind] != KIND_AMPLITUDE)
                 [mAudioSynth toggle];
             break;
-		
-		case '+': {
-				float width = [self lineWidth];
-				width++;
-				if(width>10)
-					width = 10;
-				[self setLineWidth:width];
-				break;
-			}
-
-		case '-': {
-				float width = [self lineWidth];
-				width--;
-				if(width<0)
-					width = 0;
-				[self setLineWidth:width];
-				break;
-			}
-			
+            
+        case '+': {
+            float width = [self lineWidth];
+            width++;
+            if(width>10)
+                width = 10;
+            [self setLineWidth:width];
+            break;
+        }
+            
+        case '-': {
+            float width = [self lineWidth];
+            width--;
+            if(width<0)
+                width = 0;
+            [self setLineWidth:width];
+            break;
+        }
+            
         case NSRightArrowFunctionKey:
             [self moveCursorOfDeltaX:incr];
             break;
@@ -595,7 +595,7 @@
             break;
         case NSUpArrowFunctionKey:
             if(mViewType == VIEW_3D)
-                [self moveCursorOfDeltaY:incr];            
+                [self moveCursorOfDeltaY:incr];
             else
                 [self moveCursorToStart];
             break;
@@ -606,7 +606,7 @@
             break;
         case NSDownArrowFunctionKey:
             if(mViewType == VIEW_3D)
-                [self moveCursorOfDeltaY:-incr];            
+                [self moveCursorOfDeltaY:-incr];
             else
                 [self moveCursorToEnd];
             break;
@@ -625,34 +625,34 @@
 {
     BOOL keepOn = YES;
     NSPoint firstPt = [self convertPoint:[theEvent locationInWindow] fromView:nil];
-
+    
     keepOn = ![self handleMouse:theEvent firstPoint:firstPt first:YES];
     [self setNeedsDisplay:YES];
-
+    
     mDragAndDropDate = [[NSDate date] retain];
     mDragAndDropPoint = firstPt;
     mDragAndDropEvent = theEvent;
     
     while (keepOn) {
         theEvent = [[self window] nextEventMatchingMask: NSLeftMouseUpMask |
-                NSLeftMouseDraggedMask];
-
+                    NSLeftMouseDraggedMask];
+        
         switch ([theEvent type]) {
             case NSLeftMouseDragged:
-                    keepOn = ![self handleMouse:theEvent firstPoint:firstPt first:NO];
-                    [self setNeedsDisplay:YES];
-                    break;
+                keepOn = ![self handleMouse:theEvent firstPoint:firstPt first:NO];
+                [self setNeedsDisplay:YES];
+                break;
             case NSLeftMouseUp:
-                    if(!mIsSelected)
-                        [self setSelect:YES];
-                   keepOn = NO;
-                    break;
+                if(!mIsSelected)
+                    [self setSelect:YES];
+                keepOn = NO;
+                break;
             default:
-                    /* Ignore any other kind of event. */
-                    break;
+                /* Ignore any other kind of event. */
+                break;
         }
     }
-
+    
     [mDragAndDropDate release];
     mDragAndDropDate = NULL;
     
@@ -662,35 +662,38 @@
 - (NSMenu *)menuForEvent:(NSEvent *)theEvent
 {
     // Submenu for copy to clipboard
-
+    
     NSMenu *copyToClipboardMenu = [[NSMenu alloc] initWithTitle:NSLocalizedString(@"Copy To Clipboard", NULL)];
     [copyToClipboardMenu addItemWithTitle:NSLocalizedString(@"As Image", NULL)
-                action:@selector(cmCopyToClipboardAsImage:) keyEquivalent:@""];
+                                   action:@selector(cmCopyToClipboardAsImage:) keyEquivalent:@""];
     [copyToClipboardMenu addItemWithTitle:NSLocalizedString(@"As PDF", NULL)
-                action:@selector(cmCopyToClipboardAsPDF:) keyEquivalent:@""];
+                                   action:@selector(cmCopyToClipboardAsPDF:) keyEquivalent:@""];
     [copyToClipboardMenu addItemWithTitle:NSLocalizedString(@"As EPS", NULL)
-                action:@selector(cmCopyToClipboardAsEPS:) keyEquivalent:@""];
-
+                                   action:@selector(cmCopyToClipboardAsEPS:) keyEquivalent:@""];
+    
     NSMenuItem *copyToClipboardItem = [[NSMenuItem alloc] initWithTitle:NSLocalizedString(@"Copy To Clipboard", NULL)
-                                                        action:NULL
-                                                        keyEquivalent:@""];
+                                                                 action:NULL
+                                                          keyEquivalent:@""];
     [copyToClipboardItem autorelease];
     
     // Contextual menu
     NSMenu *menu = [[NSMenu alloc] initWithTitle:@"View Menu"];
     [menu addItemWithTitle:NSLocalizedString(@"Print", NULL)
-                action:@selector(cmPrintView:) keyEquivalent:@""];
-
+                    action:@selector(cmPrintView:) keyEquivalent:@""];
+    
     [menu addItem:copyToClipboardItem];
     [menu setSubmenu:copyToClipboardMenu forItem:copyToClipboardItem];
-	[copyToClipboardMenu release];
-
+    [copyToClipboardMenu release];
+    
     if([AudioExchange canExportDataAsRawData:mDataSource])
         [menu addItemWithTitle:NSLocalizedString(@"Export As Raw Data", NULL)
                         action:@selector(cmExportRawData:) keyEquivalent:@""];
     if([AudioExchange canExportDataAsAIFF:mDataSource])
         [menu addItemWithTitle:NSLocalizedString(@"Export As AIFF", NULL)
                         action:@selector(cmExportAIFF:) keyEquivalent:@""];
+    [menu addItemWithTitle:@"Create audio fingerprint"
+                    action:@selector(createFingerPrint:) keyEquivalent:@""];
+    
     return [menu autorelease];
 }
 
@@ -722,6 +725,13 @@
 - (void)cmExportAIFF:(id)sender
 {
     [AudioExchange exportDataAsAIFFFromView:self];
+}
+
+- (void)createFingerPrint:(id)sender
+{
+       [AudioExchange createFingerPrintFromView:self];
+    
+    NSLog(@"mDataSource:%@",[mDataSource class]);
 }
 
 @end

@@ -32,11 +32,14 @@
 #import <Cocoa/Cocoa.h>
 #import "AudioProtocols.h"
 #import "AudioDataAmplitude.h"
+#import <CoreMIDI/CoreMIDI.h>
 
 @class AudioView;
 
 @interface AudioExchange : NSWindowController {
     NSWindow *mWindow;
+    
+    MIDIClientRef theMidiClient;
     id<DataSourceProtocol> mDataSource;
 
     // View contextual menu action
@@ -87,4 +90,5 @@
 @interface AudioExchange (ExportRawData)
 + (BOOL)canExportDataAsRawData:(id)data;
 + (void)exportDataAsRawDataFromView:(AudioView*)view;
+
 @end

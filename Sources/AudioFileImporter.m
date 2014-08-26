@@ -34,6 +34,8 @@
 #import "AIFFCodec.h"
 #import "ARFileUtilities.h"
 #import <QuickTime/QuickTime.h>
+#import "LBAudioDetective.h"
+
 
 @implementation AudioFileImporter
 
@@ -246,6 +248,19 @@ error:  [pool release];
     [mProgressPanel setCancelButtonEnabled:NO];
     
     AIFFCodec *codec = [[AIFFCodec alloc] initWithContentsOfFile:mTempFile errorMessage:mErrorMessage];
+    
+    
+    NSURL *url =[NSURL fileURLWithPath:mTempFile];
+    NSError *error;
+
+     NSLog(@"warning - generating fingerprint from wav file");
+    // NSURL* URL = [[NSBundle mainBundle] URLForResource:@"temp" withExtension:@"aif"];
+   /* LBAudioDetectiveRef inDetective = LBAudioDetectiveNew();
+    
+    LBAudioDetectiveFingerprintRef fingerprint2 =LBAudioDetectiveDetermineFingerPrint(url,inDetective);
+    
+    NSLog(@"save to db:%u",fingerprint2);*/
+    
     BOOL success = codec != NULL;
     if(success)
     {
